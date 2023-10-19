@@ -1,0 +1,40 @@
+|bin_2_bcd
+Bin[0] => Uni[0].DATAIN
+Bin[1] => LessThan7.IN8
+Bin[1] => Add7.IN8
+Bin[1] => Z.DATAA
+Bin[2] => LessThan5.IN8
+Bin[2] => Add5.IN8
+Bin[2] => Z.DATAA
+Bin[3] => LessThan3.IN8
+Bin[3] => Add3.IN8
+Bin[3] => Z.DATAA
+Bin[4] => LessThan2.IN8
+Bin[4] => Add2.IN8
+Bin[4] => Z.DATAA
+Bin[5] => LessThan1.IN8
+Bin[5] => Add1.IN8
+Bin[5] => Z.DATAA
+Bin[6] => LessThan0.IN6
+Bin[6] => Add0.IN6
+Bin[6] => Z.DATAA
+Bin[7] => LessThan0.IN5
+Bin[7] => Add0.IN5
+Bin[7] => Z.DATAA
+Bin[8] => LessThan0.IN4
+Bin[8] => Add0.IN4
+Bin[8] => Z.DATAA
+Cen[0] <= Z.DB_MAX_OUTPUT_PORT_TYPE
+Cen[1] <= Z.DB_MAX_OUTPUT_PORT_TYPE
+Cen[2] <= Z.DB_MAX_OUTPUT_PORT_TYPE
+Cen[3] <= <GND>
+Dec[0] <= Z.DB_MAX_OUTPUT_PORT_TYPE
+Dec[1] <= Z.DB_MAX_OUTPUT_PORT_TYPE
+Dec[2] <= Z.DB_MAX_OUTPUT_PORT_TYPE
+Dec[3] <= Z.DB_MAX_OUTPUT_PORT_TYPE
+Uni[0] <= Bin[0].DB_MAX_OUTPUT_PORT_TYPE
+Uni[1] <= Z.DB_MAX_OUTPUT_PORT_TYPE
+Uni[2] <= Z.DB_MAX_OUTPUT_PORT_TYPE
+Uni[3] <= Z.DB_MAX_OUTPUT_PORT_TYPE
+
+

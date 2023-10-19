@@ -1,0 +1,16 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity sumador_6_bits is
+	port(
+	
+	);
+end sumador_6_bits;
+
+architecture Behavioral of sumador_6_bits is
+
+begin
+
+end Behavioral;
+
+

@@ -1,0 +1,19 @@
+-- Quartus II VHDL Template
+
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity multiplicador_5bits_tb is
+	-- port ();
+end multiplicador_5bits_tb;
+
+architecture Behavioral of multiplicador_5bits_tb is
+
+begin
+
+	test: entity work.multiplicador_5bits
+	port map (
+	
+	);
+
+end Behavioral;

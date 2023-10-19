@@ -1,0 +1,17 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity multiplicador_5bits is
+	port(
+		ivA, ivB 						: in std_logic_vector(3 downto 0);
+		ovX0, ovX1, ovX2, ovX3 		: out std_logic_vector(6 downto 0)
+	);
+end multiplicador_5bits;
+
+architecture Behavioral of multiplicador_5bits is
+
+begin
+
+end Behavioral;
+
+

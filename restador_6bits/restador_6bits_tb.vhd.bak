@@ -1,0 +1,52 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity restador_6bits_tb is
+end restador_6bits_tb;
+
+architecture tb of restador_6bits_tb is
+  signal ivA_tb, ivB_tb, ovS_tb: std_logic_vector(5 downto 0);
+
+  component restador_6bits is
+    port(
+      ivA, ivB: in std_logic_vector(5 downto 0);
+      ovS: out std_logic_vector(5 downto 0)
+    );
+  end component;
+
+begin
+  DUT: restador_6bits port map(
+    ivA => ivA_tb,
+    ivB => ivB_tb,
+    ovS => ovS_tb
+  );
+
+  -- Establecer los valores de entrada
+  ivA_tb <= "110110";
+  ivB_tb <= "001001";
+  
+  -- Esperar un poco
+  wait for 10 ns;
+
+  -- Verificar la salida
+  assert (ovS_tb = "101101")
+    report "Prueba 1 fallida"
+    severity error;
+
+  -- Establecer nuevos valores de entrada
+  ivA_tb <= "010010";
+  ivB_tb <= "110001";
+
+  -- Esperar un poco
+  wait for 10 ns;
+
+  -- Verificar la salida
+  assert (ovS_tb = "100101")
+    report "Prueba 2 fallida"
+    severity error;
+
+  -- Puedes continuar agregando más pruebas según sea necesario.
+
+  -- Terminar la simulación
+  wait;
+end tb;

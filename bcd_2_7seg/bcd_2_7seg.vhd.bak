@@ -1,0 +1,29 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity bcd_2_7_seg is
+	port(  
+		BCD: in  std_logic_vector (3 downto 0);
+		X_o: out std_logic_vector(6 downto 0)
+	); 
+end bcd_2_7_seg;
+ 
+architecture Behavioral of bcd_2_7_seg is
+begin
+	process (BCD)
+		begin
+		case BCD is
+		  when "0000" => X_o <=  "1111110"; --0
+		  when "0001" => X_o <=  "0110000"; --1
+		  when "0010" => X_o <=  "1101101"; --2
+		  when "0011" => X_o <=  "1111001"; --3
+		  when "0100" => X_o <=  "0110011"; --4 
+		  when "0101" => X_o <=  "1011011"; --5
+		  when "0110" => X_o <=  "1011111"; --6
+		  when "0111" => X_o <=  "1110000"; --7
+		  when "1000" => X_o <=  "1111111"; --8
+		  when "1001" => X_o <=  "1111011"; --9
+		  when others => X_o <=  "1111011"; --9
+		end case;
+	end process;
+end Behavioral;

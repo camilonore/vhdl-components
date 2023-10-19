@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\caminore\Documents\Quartus Files\restador_4bits\simulation\qsim
+vrestador_4bits
+Z1 IJBFRYICz;a;h@0EACDe]a2
+Z2 VC>5]NBnE10;PZ9leFCg_o1
+Z3 dC:\Users\caminore\Documents\Quartus Files\restador_4bits\simulation\qsim
+Z4 w1697316455
+Z5 8restador_4bits.vo
+Z6 Frestador_4bits.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|restador_4bits.vo|
+Z9 o-work work -O0
+!i10b 1
+Z10 !s100 K?nMK;R[HM6dzMUmh7Ob?0
+!s85 0
+Z11 !s108 1697316456.806000
+Z12 !s107 restador_4bits.vo|
+!s101 -O0
+vrestador_4bits_vlg_check_tst
+!i10b 1
+!s100 FmSffMUeUHh>_7[EVlaKP1
+I?dei[b<?nmnEMa17J;mgP3
+VR7>Vj7zZR1WBA53Bcj2Zo3
+R3
+R4
+Z13 8restador_4bits.vt
+Z14 Frestador_4bits.vt
+L0 59
+R7
+r1
+!s85 0
+31
+Z15 !s108 1697316456.919000
+Z16 !s107 restador_4bits.vt|
+Z17 !s90 -work|work|restador_4bits.vt|
+!s101 -O0
+R9
+vrestador_4bits_vlg_sample_tst
+!i10b 1
+Z18 !s100 5GCED9`c]IJVihRV]_zOE3
+Z19 IeQ]<zT?8zbzdG8WCdR`l^0
+Z20 VoQlGzigfVX09jh;8Ja<T<3
+R3
+R4
+R13
+R14
+L0 29
+R7
+r1
+!s85 0
+31
+R15
+R16
+R17
+!s101 -O0
+R9
+vrestador_4bits_vlg_vec_tst
+!i10b 1
+!s100 ?zcgh?iS>6hLbDUjIf28`3
+I;8EjO<A]HmA=M1KVCS;h@0
+Z21 V7FNX5E4021lXS0E8gImoJ2
+R3
+R4
+R13
+R14
+L0 234
+R7
+r1
+!s85 0
+31
+R15
+R16
+R17
+!s101 -O0
+R9

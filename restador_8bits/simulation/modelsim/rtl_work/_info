@@ -1,0 +1,216 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\caminore\Documents\Quartus Files\restador_8bits\simulation\modelsim
+Erestador_8bits
+Z1 w1697316612
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\Users\caminore\Documents\Quartus Files\restador_8bits\simulation\modelsim
+Z5 8C:/Users/caminore/Documents/Quartus Files/restador_8bits/restador_8bits.vhd
+Z6 FC:/Users/caminore/Documents/Quartus Files/restador_8bits/restador_8bits.vhd
+l0
+L4
+Vb73FTHNWA8=ghFL9B<Q^J3
+Z7 OV;C;10.1d;51
+31
+Z8 !s108 1697316681.989000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/caminore/Documents/Quartus Files/restador_8bits/restador_8bits.vhd|
+Z10 !s107 C:/Users/caminore/Documents/Quartus Files/restador_8bits/restador_8bits.vhd|
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+!s100 6[e8Ch`2IC37:@63A;Vc`3
+!i10b 1
+Abehavioral
+R2
+R3
+Z13 DEx4 work 14 restador_8bits 0 22 b73FTHNWA8=ghFL9B<Q^J3
+l28
+L12
+V89FfFz1NVgGN]k@oYH13:3
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 EQVe3a0@U4o49YTOd=laS3
+!i10b 1
+Erestador_8bits_tb
+Z14 w1697316663
+R2
+R3
+R4
+Z15 8C:/Users/caminore/Documents/Quartus Files/restador_8bits/restador_8bits_tb.vhd
+Z16 FC:/Users/caminore/Documents/Quartus Files/restador_8bits/restador_8bits_tb.vhd
+l0
+L4
+V^`Q2KH0_EhT7hl6eNe<VX2
+!s100 EZcWz=D^Sj<homK:O<Q3;0
+R7
+31
+!i10b 1
+Z17 !s108 1697316682.489000
+Z18 !s90 -reportprogress|300|-93|-work|work|C:/Users/caminore/Documents/Quartus Files/restador_8bits/restador_8bits_tb.vhd|
+Z19 !s107 C:/Users/caminore/Documents/Quartus Files/restador_8bits/restador_8bits_tb.vhd|
+R11
+R12
+Atb
+R13
+R2
+R3
+DEx4 work 17 restador_8bits_tb 0 22 ^`Q2KH0_EhT7hl6eNe<VX2
+l12
+L7
+Vj1IA;6nZV1@>ThmB;N14D1
+!s100 V7C2BN<3jO;zfz@om1YaC1
+R7
+31
+!i10b 1
+R17
+R18
+R19
+R11
+R12
+Esumador_1_bit
+Z20 w1697076394
+R2
+R3
+R4
+Z21 8c:/users/caminore/documents/quartus files/sumadores_x_bits/sumador_1_bit.vhd
+Z22 Fc:/users/caminore/documents/quartus files/sumadores_x_bits/sumador_1_bit.vhd
+l0
+L4
+VJEQ::^KzM6P:Jjig?a1ni0
+R7
+31
+Z23 !s108 1697316682.379000
+Z24 !s90 -reportprogress|300|-93|-work|work|c:/users/caminore/documents/quartus files/sumadores_x_bits/sumador_1_bit.vhd|
+Z25 !s107 c:/users/caminore/documents/quartus files/sumadores_x_bits/sumador_1_bit.vhd|
+R11
+R12
+!s100 Gl=fl;EEZDG:A;I=G`hNa0
+!i10b 1
+Abehavioral
+R2
+R3
+DEx4 work 13 sumador_1_bit 0 22 JEQ::^KzM6P:Jjig?a1ni0
+l13
+L11
+VnQ47Al`LlPOO6NPE4XM?X1
+R7
+31
+R23
+R24
+R25
+R11
+R12
+!s100 @hmY;g[d:PcJg6G646@kA2
+!i10b 1
+Esumador_2_bits
+Z26 w1697076424
+R2
+R3
+R4
+Z27 8c:/users/caminore/documents/quartus files/sumadores_x_bits/sumador_2_bits.vhd
+Z28 Fc:/users/caminore/documents/quartus files/sumadores_x_bits/sumador_2_bits.vhd
+l0
+L4
+V>MTZE3oCzFO@Gjd??[_PG3
+R7
+31
+Z29 !s108 1697316682.284000
+Z30 !s90 -reportprogress|300|-93|-work|work|c:/users/caminore/documents/quartus files/sumadores_x_bits/sumador_2_bits.vhd|
+Z31 !s107 c:/users/caminore/documents/quartus files/sumadores_x_bits/sumador_2_bits.vhd|
+R11
+R12
+!s100 Z1cbiPd5nUC7bd2CdI0nO0
+!i10b 1
+Abehavioral
+R2
+R3
+DEx4 work 14 sumador_2_bits 0 22 >MTZE3oCzFO@Gjd??[_PG3
+l24
+L13
+V^R0<2dB[jP7zFk<3Fe0I_3
+R7
+31
+R29
+R30
+R31
+R11
+R12
+!s100 feDgUUAlFV:]=:W9g^_4^2
+!i10b 1
+Esumador_4_bits
+Z32 w1697074463
+R2
+R3
+R4
+Z33 8c:/users/caminore/documents/quartus files/sumadores_x_bits/sumador_4_bits.vhd
+Z34 Fc:/users/caminore/documents/quartus files/sumadores_x_bits/sumador_4_bits.vhd
+l0
+L4
+Vg<`za42bgKZJ85e6LVM2e2
+R7
+31
+Z35 !s108 1697316682.191000
+Z36 !s90 -reportprogress|300|-93|-work|work|c:/users/caminore/documents/quartus files/sumadores_x_bits/sumador_4_bits.vhd|
+Z37 !s107 c:/users/caminore/documents/quartus files/sumadores_x_bits/sumador_4_bits.vhd|
+R11
+R12
+!s100 M<3^c1eM>]I4^2Kbol;J=2
+!i10b 1
+Abehavioral
+R2
+R3
+DEx4 work 14 sumador_4_bits 0 22 g<`za42bgKZJ85e6LVM2e2
+l26
+L13
+VGY1:GLbdoAWWcFJnMXLXB2
+R7
+31
+R35
+R36
+R37
+R11
+R12
+!s100 id=RYW<HHZ=`Ro4eBVcO31
+!i10b 1
+Esumador_8_bits
+R32
+R2
+R3
+R4
+Z38 8c:/users/caminore/documents/quartus files/sumadores_x_bits/sumador_8_bits.vhd
+Z39 Fc:/users/caminore/documents/quartus files/sumadores_x_bits/sumador_8_bits.vhd
+l0
+L4
+V^>=^zX9HQIPbBO4d50ZjC0
+R7
+31
+Z40 !s108 1697316682.095000
+Z41 !s90 -reportprogress|300|-93|-work|work|c:/users/caminore/documents/quartus files/sumadores_x_bits/sumador_8_bits.vhd|
+Z42 !s107 c:/users/caminore/documents/quartus files/sumadores_x_bits/sumador_8_bits.vhd|
+R11
+R12
+!s100 j9C1UoIBb^Ng2VWn6613n1
+!i10b 1
+Abehavioral
+R2
+R3
+DEx4 work 14 sumador_8_bits 0 22 ^>=^zX9HQIPbBO4d50ZjC0
+l26
+L13
+VDj8V@lM]ka_z^=9klCeFa2
+R7
+31
+R40
+R41
+R42
+R11
+R12
+!s100 ifUF6>=gTWR=Bokl47>]40
+!i10b 1
