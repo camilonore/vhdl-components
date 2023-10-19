@@ -13,19 +13,10 @@ end sumador_8_bits;
 architecture Behavioral of sumador_8_bits is
 
 	signal S_carry: std_logic := '0';
-
-	component sumador_4_bits is
-	port (
-		ivA, ivB : in std_logic_vector(3 downto 0);
-		Cin  	 : in std_logic;
-		Cout   	 : out std_logic;
-		ovX 		 : out std_logic_vector(3 downto 0)
-	);
-	end component;
 	
 begin
 
-	sum_1: sumador_4_bits
+	sum_1: entity work.sumador_4_bits
 		port map(
 			ivA(0) => ivA(0),
 			ivA(1) => ivA(1),
@@ -46,7 +37,7 @@ begin
 			ovX(3) => ovX(3)
 		);
 		
-	sum_2: sumador_4_bits 
+	sum_2: entity work.sumador_4_bits 
 		port map(
 			ivA(0) => ivA(4),
 			ivA(1) => ivA(5),

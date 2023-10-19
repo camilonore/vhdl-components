@@ -1,0 +1,219 @@
+|sumador_8bits
+ivA[0] => sumador_4bits:sum_1.ivA[0]
+ivA[1] => sumador_4bits:sum_1.ivA[1]
+ivA[2] => sumador_4bits:sum_1.ivA[2]
+ivA[3] => sumador_4bits:sum_1.ivA[3]
+ivA[4] => sumador_4bits:sum_2.ivA[0]
+ivA[5] => sumador_4bits:sum_2.ivA[1]
+ivA[6] => sumador_4bits:sum_2.ivA[2]
+ivA[7] => sumador_4bits:sum_2.ivA[3]
+ivB[0] => sumador_4bits:sum_1.ivB[0]
+ivB[1] => sumador_4bits:sum_1.ivB[1]
+ivB[2] => sumador_4bits:sum_1.ivB[2]
+ivB[3] => sumador_4bits:sum_1.ivB[3]
+ivB[4] => sumador_4bits:sum_2.ivB[0]
+ivB[5] => sumador_4bits:sum_2.ivB[1]
+ivB[6] => sumador_4bits:sum_2.ivB[2]
+ivB[7] => sumador_4bits:sum_2.ivB[3]
+Cin => sumador_4bits:sum_1.Cin
+Cout <= sumador_4bits:sum_2.Cout
+ovX[0] <= sumador_4bits:sum_1.ovX[0]
+ovX[1] <= sumador_4bits:sum_1.ovX[1]
+ovX[2] <= sumador_4bits:sum_1.ovX[2]
+ovX[3] <= sumador_4bits:sum_1.ovX[3]
+ovX[4] <= sumador_4bits:sum_2.ovX[0]
+ovX[5] <= sumador_4bits:sum_2.ovX[1]
+ovX[6] <= sumador_4bits:sum_2.ovX[2]
+ovX[7] <= sumador_4bits:sum_2.ovX[3]
+
+
+|sumador_8bits|sumador_4bits:sum_1
+ivA[0] => sumador_2bits:sum_1.ivA[0]
+ivA[1] => sumador_2bits:sum_1.ivA[1]
+ivA[2] => sumador_2bits:sum_2.ivA[0]
+ivA[3] => sumador_2bits:sum_2.ivA[1]
+ivB[0] => sumador_2bits:sum_1.ivB[0]
+ivB[1] => sumador_2bits:sum_1.ivB[1]
+ivB[2] => sumador_2bits:sum_2.ivB[0]
+ivB[3] => sumador_2bits:sum_2.ivB[1]
+Cin => sumador_2bits:sum_1.Cin
+Cout <= sumador_2bits:sum_2.Cout
+ovX[0] <= sumador_2bits:sum_1.ovX[0]
+ovX[1] <= sumador_2bits:sum_1.ovX[1]
+ovX[2] <= sumador_2bits:sum_2.ovX[0]
+ovX[3] <= sumador_2bits:sum_2.ovX[1]
+
+
+|sumador_8bits|sumador_4bits:sum_1|sumador_2bits:sum_1
+ivA[0] => sumador_1bit:sum_1.iA
+ivA[1] => sumador_1bit:sum_2.iA
+ivB[0] => sumador_1bit:sum_1.iB
+ivB[1] => sumador_1bit:sum_2.iB
+Cin => sumador_1bit:sum_1.Cin
+Cout <= sumador_1bit:sum_2.Cout
+ovX[0] <= sumador_1bit:sum_1.oX
+ovX[1] <= sumador_1bit:sum_2.oX
+
+
+|sumador_8bits|sumador_4bits:sum_1|sumador_2bits:sum_1|sumador_1bit:sum_1
+iA => Cout.IN0
+iA => Cout.IN0
+iA => oX.IN0
+iB => Cout.IN1
+iB => Cout.IN0
+iB => oX.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+Cin => oX.IN1
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+oX <= oX.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sumador_8bits|sumador_4bits:sum_1|sumador_2bits:sum_1|sumador_1bit:sum_2
+iA => Cout.IN0
+iA => Cout.IN0
+iA => oX.IN0
+iB => Cout.IN1
+iB => Cout.IN0
+iB => oX.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+Cin => oX.IN1
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+oX <= oX.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sumador_8bits|sumador_4bits:sum_1|sumador_2bits:sum_2
+ivA[0] => sumador_1bit:sum_1.iA
+ivA[1] => sumador_1bit:sum_2.iA
+ivB[0] => sumador_1bit:sum_1.iB
+ivB[1] => sumador_1bit:sum_2.iB
+Cin => sumador_1bit:sum_1.Cin
+Cout <= sumador_1bit:sum_2.Cout
+ovX[0] <= sumador_1bit:sum_1.oX
+ovX[1] <= sumador_1bit:sum_2.oX
+
+
+|sumador_8bits|sumador_4bits:sum_1|sumador_2bits:sum_2|sumador_1bit:sum_1
+iA => Cout.IN0
+iA => Cout.IN0
+iA => oX.IN0
+iB => Cout.IN1
+iB => Cout.IN0
+iB => oX.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+Cin => oX.IN1
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+oX <= oX.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sumador_8bits|sumador_4bits:sum_1|sumador_2bits:sum_2|sumador_1bit:sum_2
+iA => Cout.IN0
+iA => Cout.IN0
+iA => oX.IN0
+iB => Cout.IN1
+iB => Cout.IN0
+iB => oX.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+Cin => oX.IN1
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+oX <= oX.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sumador_8bits|sumador_4bits:sum_2
+ivA[0] => sumador_2bits:sum_1.ivA[0]
+ivA[1] => sumador_2bits:sum_1.ivA[1]
+ivA[2] => sumador_2bits:sum_2.ivA[0]
+ivA[3] => sumador_2bits:sum_2.ivA[1]
+ivB[0] => sumador_2bits:sum_1.ivB[0]
+ivB[1] => sumador_2bits:sum_1.ivB[1]
+ivB[2] => sumador_2bits:sum_2.ivB[0]
+ivB[3] => sumador_2bits:sum_2.ivB[1]
+Cin => sumador_2bits:sum_1.Cin
+Cout <= sumador_2bits:sum_2.Cout
+ovX[0] <= sumador_2bits:sum_1.ovX[0]
+ovX[1] <= sumador_2bits:sum_1.ovX[1]
+ovX[2] <= sumador_2bits:sum_2.ovX[0]
+ovX[3] <= sumador_2bits:sum_2.ovX[1]
+
+
+|sumador_8bits|sumador_4bits:sum_2|sumador_2bits:sum_1
+ivA[0] => sumador_1bit:sum_1.iA
+ivA[1] => sumador_1bit:sum_2.iA
+ivB[0] => sumador_1bit:sum_1.iB
+ivB[1] => sumador_1bit:sum_2.iB
+Cin => sumador_1bit:sum_1.Cin
+Cout <= sumador_1bit:sum_2.Cout
+ovX[0] <= sumador_1bit:sum_1.oX
+ovX[1] <= sumador_1bit:sum_2.oX
+
+
+|sumador_8bits|sumador_4bits:sum_2|sumador_2bits:sum_1|sumador_1bit:sum_1
+iA => Cout.IN0
+iA => Cout.IN0
+iA => oX.IN0
+iB => Cout.IN1
+iB => Cout.IN0
+iB => oX.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+Cin => oX.IN1
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+oX <= oX.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sumador_8bits|sumador_4bits:sum_2|sumador_2bits:sum_1|sumador_1bit:sum_2
+iA => Cout.IN0
+iA => Cout.IN0
+iA => oX.IN0
+iB => Cout.IN1
+iB => Cout.IN0
+iB => oX.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+Cin => oX.IN1
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+oX <= oX.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sumador_8bits|sumador_4bits:sum_2|sumador_2bits:sum_2
+ivA[0] => sumador_1bit:sum_1.iA
+ivA[1] => sumador_1bit:sum_2.iA
+ivB[0] => sumador_1bit:sum_1.iB
+ivB[1] => sumador_1bit:sum_2.iB
+Cin => sumador_1bit:sum_1.Cin
+Cout <= sumador_1bit:sum_2.Cout
+ovX[0] <= sumador_1bit:sum_1.oX
+ovX[1] <= sumador_1bit:sum_2.oX
+
+
+|sumador_8bits|sumador_4bits:sum_2|sumador_2bits:sum_2|sumador_1bit:sum_1
+iA => Cout.IN0
+iA => Cout.IN0
+iA => oX.IN0
+iB => Cout.IN1
+iB => Cout.IN0
+iB => oX.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+Cin => oX.IN1
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+oX <= oX.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sumador_8bits|sumador_4bits:sum_2|sumador_2bits:sum_2|sumador_1bit:sum_2
+iA => Cout.IN0
+iA => Cout.IN0
+iA => oX.IN0
+iB => Cout.IN1
+iB => Cout.IN0
+iB => oX.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+Cin => oX.IN1
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+oX <= oX.DB_MAX_OUTPUT_PORT_TYPE
+
+
