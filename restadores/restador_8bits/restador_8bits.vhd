@@ -4,7 +4,7 @@ use ieee.std_logic_1164.all;
 entity restador_8bits is
 	port(
 		ivA, ivB : in std_logic_vector(7 downto 0);
-		ovS    	: out std_logic_vector(7 downto 0);
+		ovX    	: out std_logic_vector(7 downto 0);
 		oSign		: out std_logic
 	);
 end restador_8bits;
@@ -20,7 +20,7 @@ architecture Behavioral of restador_8bits is
 		port(
 			ivA, ivB : in std_logic_vector(7 downto 0);
 			Cin 		: in std_logic;
-			ovS		: out std_logic_vector(7 downto 0);
+			ovX		: out std_logic_vector(7 downto 0);
 			Cout 		: out std_logic
 		);
 	end component;
@@ -34,7 +34,7 @@ begin
 		ivB  => svNB,
 		Cin  => '1',
 		Cout => svS(8),
-		ovS  => svS(7 downto 0)
+		ovX  => svS(7 downto 0)
 	);
 	
 	
@@ -54,7 +54,7 @@ begin
 		ivA  => svX,
  		ivB  => svB,
 		Cin  => '0',
-		ovS  => ovS
+		ovX  => ovX
 	);
 
 end Behavioral;

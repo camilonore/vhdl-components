@@ -12,7 +12,7 @@ architecture tb of restador_6bits_tb is
   component restador_6bits is
     port(
 		ivA, ivB : in std_logic_vector(5 downto 0);
-		ovS    	: out std_logic_vector(6 downto 0);
+		ovX    	: out std_logic_vector(6 downto 0);
 		oSign		: out std_logic
     );
   end component;
@@ -39,7 +39,7 @@ begin
 		port map (
 			ivA   => ivA_tb,
 			ivB   => ivB_tb,
-			ovS   => ovS_tb,
+			ovX   => ovS_tb,
 			oSign => oSign_tb
 		);
   

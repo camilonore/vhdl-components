@@ -31,15 +31,14 @@ ivB[3] => A0B[3].IN1
 ivB[3] => A1B[3].IN1
 ivB[3] => A2B[3].IN1
 ivB[3] => A3B[3].IN1
-ovS[0] <= A0B.DB_MAX_OUTPUT_PORT_TYPE
-ovS[1] <= sumador_1_bit:sum1.oS
-ovS[2] <= sumador_1_bit:sum5.oS
-ovS[3] <= sumador_1_bit:sum9.oS
-ovS[4] <= sumador_1_bit:sum10.oS
-ovS[5] <= sumador_1_bit:sum11.oS
-ovS[6] <= sumador_1_bit:sum12.oS
-ovS[7] <= sumador_1_bit:sum12.Cout
-ovS[8] <= <GND>
+ovX[0] <= A0B.DB_MAX_OUTPUT_PORT_TYPE
+ovX[1] <= sumador_1_bit:sum1.oS
+ovX[2] <= sumador_1_bit:sum5.oS
+ovX[3] <= sumador_1_bit:sum9.oS
+ovX[4] <= sumador_1_bit:sum10.oS
+ovX[5] <= sumador_1_bit:sum11.oS
+ovX[6] <= sumador_1_bit:sum12.oS
+ovX[7] <= sumador_1_bit:sum12.Cout
 
 
 |multiplicador_4bits|sumador_1_bit:sum1

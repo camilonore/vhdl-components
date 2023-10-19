@@ -5,7 +5,7 @@ use ieee.std_logic_unsigned.all;
 
 entity bin_2_bcd is
 	port ( 
-	 Bin : in   std_logic_vector (8 downto 0);
+	 ivA : in   std_logic_vector (8 downto 0);
 	 Cen : out  std_logic_vector (3 downto 0);
 	 Dec : out  std_logic_vector (3 downto 0);
 	 Uni : out  std_logic_vector (3 downto 0)
@@ -16,14 +16,14 @@ architecture Behavioral of bin_2_bcd is
 
 begin
 
-    process(Bin)
+    process(ivA)
         variable Z: std_logic_vector (17 downto 0);
     begin
         for i in 0 to 17 loop
             Z(i) := '0';
         end loop;
 
-        Z(8 downto 0) := Bin;
+        Z(8 downto 0) := ivA;
 
         for i in 0 to 5 loop
             if Z(9 downto 6) > "0100" then

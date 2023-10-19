@@ -6,7 +6,7 @@ use ieee.std_logic_signed.all;
 entity multiplicador_4bits is
 	port(
 		ivA, ivB : in std_logic_vector(3 downto 0);
-		ovS	   : out std_logic_vector(7 downto 0)
+		ovX	   : out std_logic_vector(7 downto 0)
 	);
 end multiplicador_4bits;
 
@@ -162,13 +162,13 @@ begin
 		);
 
 	-- Salidas
-	ovS(0) <= A0B(0);
-	ovS(1) <= S0(0);
-	ovS(2) <= S1(0);
-	ovS(3) <= S2(0);
-	ovS(4) <= S2(1);
-	ovS(5) <= S2(2);
-	ovS(6) <= S2(3);
-	ovS(7) <= Cout2(3);
+	ovX(0) <= A0B(0);
+	ovX(1) <= S0(0);
+	ovX(2) <= S1(0);
+	ovX(3) <= S2(0);
+	ovX(4) <= S2(1);
+	ovX(5) <= S2(2);
+	ovX(6) <= S2(3);
+	ovX(7) <= Cout2(3);
 	
 end Behavioral;

@@ -4,7 +4,7 @@ use ieee.std_logic_1164.all;
 entity restador_6bits is
 	port(
 		ivA, ivB : in std_logic_vector(5 downto 0);
-		ovS    	: out std_logic_vector(6 downto 0);
+		ovX    	: out std_logic_vector(6 downto 0);
 		oSign		: out std_logic
 	);
 end restador_6bits;
@@ -20,7 +20,7 @@ architecture Behavioral of restador_6bits is
 		port(
 			ivA, ivB : in std_logic_vector(5 downto 0);
 			Cin 		: in std_logic;
-			ovS		: out std_logic_vector(5 downto 0);
+			ovX		: out std_logic_vector(5 downto 0);
 			Cout 		: out std_logic
 		);
 	end component;
@@ -34,7 +34,7 @@ begin
 		ivB  => svNB,
 		Cin  => '1',
 		Cout => svS(6),
-		ovS  => svS(5 downto 0)
+		ovX  => svS(5 downto 0)
 	);
 	
 	
@@ -52,8 +52,8 @@ begin
 		ivA  => svX,
  		ivB  => svB,
 		Cin  => '0',
-		Cout => ovS(6),
-		ovS  => ovS(5 downto 0)
+		Cout => ovX(6),
+		ovX  => ovX(5 downto 0)
 	);
 
 end Behavioral;

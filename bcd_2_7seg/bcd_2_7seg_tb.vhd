@@ -9,12 +9,12 @@ end bcd_2_7seg_tb;
 
 architecture Behavioral of bcd_2_7seg_tb is
 
-	signal BCD_tb: std_logic_vector(3 downto 0);
+	signal A_tb: std_logic_vector(3 downto 0);
 	signal X_tb: std_logic_vector(6 downto 0);
 
 begin
 
-	BCD_tb <= "0000" after 0ns,
+	A_tb <= "0000" after 0ns,
 				 "0001" after 10ns,
 				 "0010" after 20ns,
 				 "0011" after 30ns,
@@ -28,7 +28,7 @@ begin
 
 	bcd_test: entity work.bcd_2_7seg port map
 	(
-		iBcd => BCD_tb,
+		ivA => A_tb,
 		ovX => X_tb
 	);
 

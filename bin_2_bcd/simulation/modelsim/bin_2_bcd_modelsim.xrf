@@ -1,7 +1,7 @@
 vendor_name = ModelSim
-source_file = 1, C:/Users/caminore/Documents/Quartus Files/bin_2_bcd/bin_2_bcd.vhd
-source_file = 1, C:/Users/caminore/Documents/Quartus Files/bin_2_bcd/bin_2_bcd_tb.vhd
-source_file = 1, C:/Users/caminore/Documents/Quartus Files/bin_2_bcd/db/bin_2_bcd.cbx.xml
+source_file = 1, C:/Users/caminore/Documents/Quartus Files/vhdl-components/bin_2_bcd/bin_2_bcd.vhd
+source_file = 1, C:/Users/caminore/Documents/Quartus Files/vhdl-components/bin_2_bcd/bin_2_bcd_tb.vhd
+source_file = 1, C:/Users/caminore/Documents/Quartus Files/vhdl-components/bin_2_bcd/db/bin_2_bcd.cbx.xml
 source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
 source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
 source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_b.vhd

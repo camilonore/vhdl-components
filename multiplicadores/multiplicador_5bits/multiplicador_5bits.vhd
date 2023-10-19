@@ -4,7 +4,7 @@ use ieee.std_logic_1164.all;
 entity multiplicador_5bits is
 	port(
 		ivA, ivB	: in std_logic_vector(4 downto 0);
-		ovS		: out std_logic_vector(9 downto 0)
+		ovX		: out std_logic_vector(9 downto 0)
 	);
 end multiplicador_5bits;
 
@@ -244,16 +244,16 @@ begin
 
 
 	-- Salidas
-	ovS(0) <= A0B(0);
-	ovS(1) <= S0(0);
-	ovS(2) <= S1(0);
-	ovS(3) <= S2(0);
-	ovS(4) <= S3(0);
-	ovS(5) <= S3(1);
-	ovS(6) <= S3(2);
-	ovS(7) <= S3(3);
-	ovS(8) <= S3(4);
-	ovS(9) <= Cout3(4);
+	ovX(0) <= A0B(0);
+	ovX(1) <= S0(0);
+	ovX(2) <= S1(0);
+	ovX(3) <= S2(0);
+	ovX(4) <= S3(0);
+	ovX(5) <= S3(1);
+	ovX(6) <= S3(2);
+	ovX(7) <= S3(3);
+	ovX(8) <= S3(4);
+	ovX(9) <= Cout3(4);
 
 end Behavioral;
 

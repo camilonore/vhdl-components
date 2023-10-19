@@ -32,7 +32,7 @@ begin
 	port map (
 		ivA => ivA_tb,
 		ivB => ivB_tb,
-		ovS => ovS_tb
+		ovX => ovS_tb
 	);
 
 end Behavioral;
