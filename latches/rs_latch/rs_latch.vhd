@@ -3,7 +3,7 @@ use ieee.std_logic_1164.all;
 
 entity rs_latch is
 	port(
-		clk, R, S : in std_logic;
+		E, R, S : in std_logic;
 		Q			 : out std_logic
 	);
 end rs_latch;
@@ -16,8 +16,8 @@ architecture Behavioral of rs_latch is
 
 begin
 
-	R_g <= R and clk;
-	S_g <= S and clk;
+	R_g <= R and E;
+	S_g <= S and E;
 	Qa  <= not(R_g or Qb);
 	Qb  <= not(S_g or Qa);
 	

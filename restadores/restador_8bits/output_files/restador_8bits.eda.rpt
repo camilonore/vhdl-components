@@ -1,5 +1,5 @@
 EDA Netlist Writer report for restador_8bits
-Sat Oct 14 15:51:16 2023
+Thu Oct 19 21:10:25 2023
 Quartus II 32-bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -36,7 +36,7 @@ applicable agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Sat Oct 14 15:51:16 2023 ;
+; EDA Netlist Writer Status ; Successful - Thu Oct 19 21:10:25 2023 ;
 ; Revision Name             ; restador_8bits                        ;
 ; Top-level Entity Name     ; restador_8bits                        ;
 ; Family                    ; Cyclone II                            ;
@@ -66,16 +66,16 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------------------------+------------------------+
 
 
-+----------------------------------------------------------------------------------------------------------+
-; Simulation Generated Files                                                                               ;
-+----------------------------------------------------------------------------------------------------------+
-; Generated Files                                                                                          ;
-+----------------------------------------------------------------------------------------------------------+
-; C:/Users/caminore/Documents/Quartus Files/restador_8bits/simulation/modelsim/restador_8bits.vho          ;
-; C:/Users/caminore/Documents/Quartus Files/restador_8bits/simulation/modelsim/restador_8bits_fast.vho     ;
-; C:/Users/caminore/Documents/Quartus Files/restador_8bits/simulation/modelsim/restador_8bits_vhd.sdo      ;
-; C:/Users/caminore/Documents/Quartus Files/restador_8bits/simulation/modelsim/restador_8bits_vhd_fast.sdo ;
-+----------------------------------------------------------------------------------------------------------+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Simulation Generated Files                                                                                                          ;
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Generated Files                                                                                                                     ;
++-------------------------------------------------------------------------------------------------------------------------------------+
+; C:/Users/caminore/Documents/Quartus Files/vhdl-components/restadores/restador_8bits/simulation/modelsim/restador_8bits.vho          ;
+; C:/Users/caminore/Documents/Quartus Files/vhdl-components/restadores/restador_8bits/simulation/modelsim/restador_8bits_fast.vho     ;
+; C:/Users/caminore/Documents/Quartus Files/vhdl-components/restadores/restador_8bits/simulation/modelsim/restador_8bits_vhd.sdo      ;
+; C:/Users/caminore/Documents/Quartus Files/vhdl-components/restadores/restador_8bits/simulation/modelsim/restador_8bits_vhd_fast.sdo ;
++-------------------------------------------------------------------------------------------------------------------------------------+
 
 
 +-----------------------------+
@@ -84,12 +84,12 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 32-bit EDA Netlist Writer
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Sat Oct 14 15:51:15 2023
+    Info: Processing started: Thu Oct 19 21:10:24 2023
 Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off restador_8bits -c restador_8bits
-Info (204026): Generated files "restador_8bits.vho", "restador_8bits_fast.vho", "restador_8bits_vhd.sdo" and "restador_8bits_vhd_fast.sdo" in directory "C:/Users/caminore/Documents/Quartus Files/restador_8bits/simulation/modelsim/" for EDA simulation tool
+Info (204026): Generated files "restador_8bits.vho", "restador_8bits_fast.vho", "restador_8bits_vhd.sdo" and "restador_8bits_vhd_fast.sdo" in directory "C:/Users/caminore/Documents/Quartus Files/vhdl-components/restadores/restador_8bits/simulation/modelsim/" for EDA simulation tool
 Info: Quartus II 32-bit EDA Netlist Writer was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 330 megabytes
-    Info: Processing ended: Sat Oct 14 15:51:16 2023
+    Info: Peak virtual memory: 329 megabytes
+    Info: Processing ended: Thu Oct 19 21:10:25 2023
     Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:00
 

@@ -1,0 +1,15 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity t_flipflop is
+	port(
+		T, Clk : in  std_logic;
+		Q, nQ	 : out std_logic;
+	);
+end t_flipflop;
+
+architecture Behavioral of t_flipflop is
+
+begin
+
+end Behavioral;

@@ -1,0 +1,209 @@
+|d_ff_8bits
+D[0] => d_ff_4bits:ff0.D[0]
+D[1] => d_ff_4bits:ff0.D[1]
+D[2] => d_ff_4bits:ff0.D[2]
+D[3] => d_ff_4bits:ff0.D[3]
+D[4] => d_ff_4bits:ff1.D[0]
+D[5] => d_ff_4bits:ff1.D[1]
+D[6] => d_ff_4bits:ff1.D[2]
+D[7] => d_ff_4bits:ff1.D[3]
+Clk => d_ff_4bits:ff0.Clk
+Clk => d_ff_4bits:ff1.Clk
+R => d_ff_4bits:ff0.R
+R => d_ff_4bits:ff1.R
+Q[0] <= d_ff_4bits:ff0.Q[0]
+Q[1] <= d_ff_4bits:ff0.Q[1]
+Q[2] <= d_ff_4bits:ff0.Q[2]
+Q[3] <= d_ff_4bits:ff0.Q[3]
+Q[4] <= d_ff_4bits:ff1.Q[0]
+Q[5] <= d_ff_4bits:ff1.Q[1]
+Q[6] <= d_ff_4bits:ff1.Q[2]
+Q[7] <= d_ff_4bits:ff1.Q[3]
+nQ[0] <= d_ff_4bits:ff0.nQ[0]
+nQ[1] <= d_ff_4bits:ff0.nQ[1]
+nQ[2] <= d_ff_4bits:ff0.nQ[2]
+nQ[3] <= d_ff_4bits:ff0.nQ[3]
+nQ[4] <= d_ff_4bits:ff1.nQ[0]
+nQ[5] <= d_ff_4bits:ff1.nQ[1]
+nQ[6] <= d_ff_4bits:ff1.nQ[2]
+nQ[7] <= d_ff_4bits:ff1.nQ[3]
+
+
+|d_ff_8bits|d_ff_4bits:ff0
+D[0] => d_ff_2bits:ff0.D[0]
+D[1] => d_ff_2bits:ff0.D[1]
+D[2] => d_ff_2bits:ff1.D[0]
+D[3] => d_ff_2bits:ff1.D[1]
+Clk => d_ff_2bits:ff0.Clk
+Clk => d_ff_2bits:ff1.Clk
+R => d_ff_2bits:ff0.R
+R => d_ff_2bits:ff1.R
+Q[0] <= d_ff_2bits:ff0.Q[0]
+Q[1] <= d_ff_2bits:ff0.Q[1]
+Q[2] <= d_ff_2bits:ff1.Q[0]
+Q[3] <= d_ff_2bits:ff1.Q[1]
+nQ[0] <= d_ff_2bits:ff0.nQ[0]
+nQ[1] <= d_ff_2bits:ff0.nQ[1]
+nQ[2] <= d_ff_2bits:ff1.nQ[0]
+nQ[3] <= d_ff_2bits:ff1.nQ[1]
+
+
+|d_ff_8bits|d_ff_4bits:ff0|d_ff_2bits:ff0
+D[0] => d_flipflop:ff0.D
+D[1] => d_flipflop:ff1.D
+Clk => d_flipflop:ff0.Clk
+Clk => d_flipflop:ff1.Clk
+R => d_flipflop:ff0.R
+R => d_flipflop:ff1.R
+Q[0] <= d_flipflop:ff0.Q
+Q[1] <= d_flipflop:ff1.Q
+nQ[0] <= d_flipflop:ff0.nQ
+nQ[1] <= d_flipflop:ff1.nQ
+
+
+|d_ff_8bits|d_ff_4bits:ff0|d_ff_2bits:ff0|d_flipflop:ff0
+Clk => nQ~reg0.CLK
+Clk => Q~reg0.CLK
+R => nQ~reg0.PRESET
+R => Q~reg0.ACLR
+D => Q~reg0.DATAIN
+D => nQ~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+nQ <= nQ~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|d_ff_8bits|d_ff_4bits:ff0|d_ff_2bits:ff0|d_flipflop:ff1
+Clk => nQ~reg0.CLK
+Clk => Q~reg0.CLK
+R => nQ~reg0.PRESET
+R => Q~reg0.ACLR
+D => Q~reg0.DATAIN
+D => nQ~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+nQ <= nQ~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|d_ff_8bits|d_ff_4bits:ff0|d_ff_2bits:ff1
+D[0] => d_flipflop:ff0.D
+D[1] => d_flipflop:ff1.D
+Clk => d_flipflop:ff0.Clk
+Clk => d_flipflop:ff1.Clk
+R => d_flipflop:ff0.R
+R => d_flipflop:ff1.R
+Q[0] <= d_flipflop:ff0.Q
+Q[1] <= d_flipflop:ff1.Q
+nQ[0] <= d_flipflop:ff0.nQ
+nQ[1] <= d_flipflop:ff1.nQ
+
+
+|d_ff_8bits|d_ff_4bits:ff0|d_ff_2bits:ff1|d_flipflop:ff0
+Clk => nQ~reg0.CLK
+Clk => Q~reg0.CLK
+R => nQ~reg0.PRESET
+R => Q~reg0.ACLR
+D => Q~reg0.DATAIN
+D => nQ~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+nQ <= nQ~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|d_ff_8bits|d_ff_4bits:ff0|d_ff_2bits:ff1|d_flipflop:ff1
+Clk => nQ~reg0.CLK
+Clk => Q~reg0.CLK
+R => nQ~reg0.PRESET
+R => Q~reg0.ACLR
+D => Q~reg0.DATAIN
+D => nQ~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+nQ <= nQ~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|d_ff_8bits|d_ff_4bits:ff1
+D[0] => d_ff_2bits:ff0.D[0]
+D[1] => d_ff_2bits:ff0.D[1]
+D[2] => d_ff_2bits:ff1.D[0]
+D[3] => d_ff_2bits:ff1.D[1]
+Clk => d_ff_2bits:ff0.Clk
+Clk => d_ff_2bits:ff1.Clk
+R => d_ff_2bits:ff0.R
+R => d_ff_2bits:ff1.R
+Q[0] <= d_ff_2bits:ff0.Q[0]
+Q[1] <= d_ff_2bits:ff0.Q[1]
+Q[2] <= d_ff_2bits:ff1.Q[0]
+Q[3] <= d_ff_2bits:ff1.Q[1]
+nQ[0] <= d_ff_2bits:ff0.nQ[0]
+nQ[1] <= d_ff_2bits:ff0.nQ[1]
+nQ[2] <= d_ff_2bits:ff1.nQ[0]
+nQ[3] <= d_ff_2bits:ff1.nQ[1]
+
+
+|d_ff_8bits|d_ff_4bits:ff1|d_ff_2bits:ff0
+D[0] => d_flipflop:ff0.D
+D[1] => d_flipflop:ff1.D
+Clk => d_flipflop:ff0.Clk
+Clk => d_flipflop:ff1.Clk
+R => d_flipflop:ff0.R
+R => d_flipflop:ff1.R
+Q[0] <= d_flipflop:ff0.Q
+Q[1] <= d_flipflop:ff1.Q
+nQ[0] <= d_flipflop:ff0.nQ
+nQ[1] <= d_flipflop:ff1.nQ
+
+
+|d_ff_8bits|d_ff_4bits:ff1|d_ff_2bits:ff0|d_flipflop:ff0
+Clk => nQ~reg0.CLK
+Clk => Q~reg0.CLK
+R => nQ~reg0.PRESET
+R => Q~reg0.ACLR
+D => Q~reg0.DATAIN
+D => nQ~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+nQ <= nQ~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|d_ff_8bits|d_ff_4bits:ff1|d_ff_2bits:ff0|d_flipflop:ff1
+Clk => nQ~reg0.CLK
+Clk => Q~reg0.CLK
+R => nQ~reg0.PRESET
+R => Q~reg0.ACLR
+D => Q~reg0.DATAIN
+D => nQ~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+nQ <= nQ~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|d_ff_8bits|d_ff_4bits:ff1|d_ff_2bits:ff1
+D[0] => d_flipflop:ff0.D
+D[1] => d_flipflop:ff1.D
+Clk => d_flipflop:ff0.Clk
+Clk => d_flipflop:ff1.Clk
+R => d_flipflop:ff0.R
+R => d_flipflop:ff1.R
+Q[0] <= d_flipflop:ff0.Q
+Q[1] <= d_flipflop:ff1.Q
+nQ[0] <= d_flipflop:ff0.nQ
+nQ[1] <= d_flipflop:ff1.nQ
+
+
+|d_ff_8bits|d_ff_4bits:ff1|d_ff_2bits:ff1|d_flipflop:ff0
+Clk => nQ~reg0.CLK
+Clk => Q~reg0.CLK
+R => nQ~reg0.PRESET
+R => Q~reg0.ACLR
+D => Q~reg0.DATAIN
+D => nQ~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+nQ <= nQ~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|d_ff_8bits|d_ff_4bits:ff1|d_ff_2bits:ff1|d_flipflop:ff1
+Clk => nQ~reg0.CLK
+Clk => Q~reg0.CLK
+R => nQ~reg0.PRESET
+R => Q~reg0.ACLR
+D => Q~reg0.DATAIN
+D => nQ~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+nQ <= nQ~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

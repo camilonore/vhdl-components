@@ -16,7 +16,7 @@ architecture Behavioral of restador_8bits is
 	signal svB : std_logic_vector(7 downto 0) := "00000000";
 	signal svNB: std_logic_vector(7 downto 0);
 
-	component sumador_8_bits is
+	component sumador_8bits is
 		port(
 			ivA, ivB : in std_logic_vector(7 downto 0);
 			Cin 		: in std_logic;
@@ -29,7 +29,7 @@ begin
 
 	svNB <= not(ivB);
 	
-	S1: sumador_8_bits port map(
+	S1: sumador_8bits port map(
 		ivA  => ivA,
 		ivB  => svNB,
 		Cin  => '1',
@@ -50,7 +50,7 @@ begin
 	oSign  <= sVS(8);
 	svB(0) <= not(svS(8));
 	
-	S2: sumador_8_bits port map (
+	S2: sumador_8bits port map (
 		ivA  => svX,
  		ivB  => svB,
 		Cin  => '0',

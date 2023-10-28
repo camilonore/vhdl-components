@@ -3,8 +3,8 @@ use ieee.std_logic_1164.all;
 
 entity d_latch is
 	port(
-		clk, D : in std_logic;
-		Q			 : out std_logic
+		E, D : in std_logic;
+		Q, nQ	 : out std_logic
 	);
 end d_latch;
 
@@ -16,11 +16,12 @@ architecture Behavioral of d_latch is
 
 begin
 
-	R_g <= D and clk;
-	S_g <= not(D) and clk;
+	R_g <= not(D) and E;
+	S_g <= D and E;
 	Qa  <= not(R_g or Qb);
 	Qb  <= not(S_g or Qa);
 	
-	Q   <= not(Qa);
+	Q   <= Qa;
+	nQ  <= not(Qa);
 	
 end Behavioral;

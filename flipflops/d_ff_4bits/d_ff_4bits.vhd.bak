@@ -1,0 +1,40 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity d_ff_4bits is
+	port(
+		iA, iB : in  std_logic;
+		iC, iD : in  std_logic;
+		Clk, R : in  std_logic;
+		Q, nQ	 : out std_logic_vector(1 downto 0)
+	);
+end d_ff_4bits;
+
+architecture Behavioral of d_ff_4bits is
+
+	component d_flipflop is
+		port(
+			Clk, R, D : in  std_logic;
+			Q, nQ		 : out std_logic
+		);
+	end component;
+
+begin
+
+	ff0: d_flipflop port map(
+		D   => iA,
+		R   => R,
+		Clk => Clk,
+		Q   => Q(0),
+		nQ  => nQ(0)
+	);
+	
+	ff1: d_flipflop port map(
+		D   => iB,
+		R   => R,
+		Clk => Clk,
+		Q   => Q(1),
+		nQ  => nQ(1)
+	);
+
+end Behavioral;

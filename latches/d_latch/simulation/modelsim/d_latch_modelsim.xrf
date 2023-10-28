@@ -1,0 +1,13 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/caminore/Documents/Quartus Files/vhdl-components/latches/d_latch/d_latch.vhd
+source_file = 1, C:/Users/caminore/Documents/Quartus Files/vhdl-components/latches/d_latch/Waveform.vwf
+source_file = 1, C:/Users/caminore/Documents/Quartus Files/vhdl-components/latches/d_latch/db/d_latch.cbx.xml
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = d_latch
+instance = comp, \Clk~I , Clk, d_latch, 1
+instance = comp, \D~I , D, d_latch, 1
+instance = comp, \Q~I , Q, d_latch, 1
+instance = comp, \nQ~I , nQ, d_latch, 1

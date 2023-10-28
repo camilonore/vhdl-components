@@ -1,0 +1,21 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity divisor_2 is
+	port(
+		Clk  : in  std_logic;
+		oClk : out std_logic;
+	);
+end divisor_2;
+
+architecture Behavioral of divisor_2 is
+	component t_flipflop is
+		port(
+			T, R, Clk : in  std_logic;
+			Q, nQ	 	 : out std_logic
+		);
+	end component;
+begin
+
+end Behavioral;
+

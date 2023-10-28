@@ -1,6 +1,6 @@
 EDA Netlist Writer report for bin_2_bcd
-Thu Oct 19 14:44:30 2023
-Quartus II 32-bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+Thu Oct 26 11:49:13 2023
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
 ---------------------
@@ -36,7 +36,7 @@ applicable agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Thu Oct 19 14:44:30 2023 ;
+; EDA Netlist Writer Status ; Successful - Thu Oct 26 11:49:13 2023 ;
 ; Revision Name             ; bin_2_bcd                             ;
 ; Top-level Entity Name     ; bin_2_bcd                             ;
 ; Family                    ; Cyclone II                            ;
@@ -44,53 +44,50 @@ applicable agreement for further details.
 +---------------------------+---------------------------------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------+
-; Simulation Settings                                                                                                        ;
-+---------------------------------------------------------------------------------------------------+------------------------+
-; Option                                                                                            ; Setting                ;
-+---------------------------------------------------------------------------------------------------+------------------------+
-; Tool Name                                                                                         ; ModelSim-Altera (VHDL) ;
-; Generate netlist for functional simulation only                                                   ; Off                    ;
-; Time scale                                                                                        ; 1 ps                   ;
-; Truncate long hierarchy paths                                                                     ; Off                    ;
-; Map illegal HDL characters                                                                        ; Off                    ;
-; Flatten buses into individual nodes                                                               ; Off                    ;
-; Maintain hierarchy                                                                                ; Off                    ;
-; Bring out device-wide set/reset signals as ports                                                  ; Off                    ;
-; Enable glitch filtering                                                                           ; Off                    ;
-; Do not write top level VHDL entity                                                                ; Off                    ;
-; Disable detection of setup and hold time violations in the input registers of bi-directional pins ; Off                    ;
-; Architecture name in VHDL output netlist                                                          ; structure              ;
-; Generate third-party EDA tool command script for RTL functional simulation                        ; Off                    ;
-; Generate third-party EDA tool command script for gate-level simulation                            ; Off                    ;
-+---------------------------------------------------------------------------------------------------+------------------------+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Simulation Settings                                                                                                           ;
++---------------------------------------------------------------------------------------------------+---------------------------+
+; Option                                                                                            ; Setting                   ;
++---------------------------------------------------------------------------------------------------+---------------------------+
+; Tool Name                                                                                         ; ModelSim-Altera (Verilog) ;
+; Generate netlist for functional simulation only                                                   ; On                        ;
+; Truncate long hierarchy paths                                                                     ; Off                       ;
+; Map illegal HDL characters                                                                        ; Off                       ;
+; Flatten buses into individual nodes                                                               ; Off                       ;
+; Maintain hierarchy                                                                                ; Off                       ;
+; Bring out device-wide set/reset signals as ports                                                  ; Off                       ;
+; Enable glitch filtering                                                                           ; Off                       ;
+; Do not write top level VHDL entity                                                                ; Off                       ;
+; Disable detection of setup and hold time violations in the input registers of bi-directional pins ; Off                       ;
+; Architecture name in VHDL output netlist                                                          ; structure                 ;
+; Generate third-party EDA tool command script for RTL functional simulation                        ; Off                       ;
+; Generate third-party EDA tool command script for gate-level simulation                            ; Off                       ;
++---------------------------------------------------------------------------------------------------+---------------------------+
 
 
-+----------------------------------------------------------------------------------------------------------------+
-; Simulation Generated Files                                                                                     ;
-+----------------------------------------------------------------------------------------------------------------+
-; Generated Files                                                                                                ;
-+----------------------------------------------------------------------------------------------------------------+
-; C:/Users/caminore/Documents/Quartus Files/vhdl-components/bin_2_bcd/simulation/modelsim/bin_2_bcd.vho          ;
-; C:/Users/caminore/Documents/Quartus Files/vhdl-components/bin_2_bcd/simulation/modelsim/bin_2_bcd_fast.vho     ;
-; C:/Users/caminore/Documents/Quartus Files/vhdl-components/bin_2_bcd/simulation/modelsim/bin_2_bcd_vhd.sdo      ;
-; C:/Users/caminore/Documents/Quartus Files/vhdl-components/bin_2_bcd/simulation/modelsim/bin_2_bcd_vhd_fast.sdo ;
-+----------------------------------------------------------------------------------------------------------------+
++------------------------------------------------------------------------------------------------------+
+; Simulation Generated Files                                                                           ;
++------------------------------------------------------------------------------------------------------+
+; Generated Files                                                                                      ;
++------------------------------------------------------------------------------------------------------+
+; C:/Users/caminore/Documents/Quartus Files/vhdl-components/bin_2_bcd/simulation/modelsim/bin_2_bcd.vo ;
++------------------------------------------------------------------------------------------------------+
 
 
 +-----------------------------+
 ; EDA Netlist Writer Messages ;
 +-----------------------------+
 Info: *******************************************************************
-Info: Running Quartus II 32-bit EDA Netlist Writer
+Info: Running Quartus II 64-Bit EDA Netlist Writer
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Thu Oct 19 14:44:29 2023
-Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off bin_2_bcd -c bin_2_bcd
-Info (204026): Generated files "bin_2_bcd.vho", "bin_2_bcd_fast.vho", "bin_2_bcd_vhd.sdo" and "bin_2_bcd_vhd_fast.sdo" in directory "C:/Users/caminore/Documents/Quartus Files/vhdl-components/bin_2_bcd/simulation/modelsim/" for EDA simulation tool
-Info: Quartus II 32-bit EDA Netlist Writer was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 336 megabytes
-    Info: Processing ended: Thu Oct 19 14:44:30 2023
-    Info: Elapsed time: 00:00:01
-    Info: Total CPU time (on all processors): 00:00:00
+    Info: Processing started: Thu Oct 26 11:49:13 2023
+Info: Command: quartus_eda --functional=on --simulation=on --tool=modelsim_oem --format=verilog bin_2_bcd -c bin_2_bcd
+Info (119006): Selected device EP2C20F484C7 for design "bin_2_bcd"
+Info (204019): Generated file bin_2_bcd.vo in folder "C:/Users/caminore/Documents/Quartus Files/vhdl-components/bin_2_bcd/simulation/modelsim/" for EDA simulation tool
+Info: Quartus II 64-Bit EDA Netlist Writer was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 4518 megabytes
+    Info: Processing ended: Thu Oct 26 11:49:13 2023
+    Info: Elapsed time: 00:00:00
+    Info: Total CPU time (on all processors): 00:00:01
 
 

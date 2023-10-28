@@ -24,7 +24,7 @@
 (DELAYFILE
   (SDFVERSION "2.1")
   (DESIGN "restador_8bits")
-  (DATE "10/14/2023 15:51:16")
+  (DATE "10/19/2023 21:10:25")
   (VENDOR "Altera")
   (PROGRAM "Quartus II 32-bit")
   (VERSION "Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition")
@@ -164,7 +164,7 @@
   )
   (CELL
     (CELLTYPE "cycloneii_lcell_comb")
-    (INSTANCE \\S1\|sum_1\|sum_1\|sum_2\|oS\~0\\)
+    (INSTANCE \\S1\|sum_1\|sum_1\|sum_2\|oX\~0\\)
     (DELAY
       (ABSOLUTE
         (PORT dataa (5469:5469:5469) (5469:5469:5469))
@@ -281,7 +281,7 @@
   )
   (CELL
     (CELLTYPE "cycloneii_lcell_comb")
-    (INSTANCE \\S2\|sum_1\|sum_1\|sum_2\|oS\~2\\)
+    (INSTANCE \\S2\|sum_1\|sum_1\|sum_2\|oX\~2\\)
     (DELAY
       (ABSOLUTE
         (PORT dataa (322:322:322) (322:322:322))
@@ -345,7 +345,7 @@
   )
   (CELL
     (CELLTYPE "cycloneii_lcell_comb")
-    (INSTANCE \\S2\|sum_1\|sum_2\|sum_1\|oS\\)
+    (INSTANCE \\S2\|sum_1\|sum_2\|sum_1\|oX\\)
     (DELAY
       (ABSOLUTE
         (PORT dataa (323:323:323) (323:323:323))
@@ -416,7 +416,7 @@
   )
   (CELL
     (CELLTYPE "cycloneii_lcell_comb")
-    (INSTANCE \\S2\|sum_1\|sum_2\|sum_2\|oS\\)
+    (INSTANCE \\S2\|sum_1\|sum_2\|sum_2\|oX\\)
     (DELAY
       (ABSOLUTE
         (PORT datac (323:323:323) (323:323:323))
@@ -481,7 +481,7 @@
   )
   (CELL
     (CELLTYPE "cycloneii_lcell_comb")
-    (INSTANCE \\S2\|sum_2\|sum_1\|sum_1\|oS\\)
+    (INSTANCE \\S2\|sum_2\|sum_1\|sum_1\|oX\\)
     (DELAY
       (ABSOLUTE
         (PORT dataa (914:914:914) (914:914:914))
@@ -511,7 +511,7 @@
   )
   (CELL
     (CELLTYPE "cycloneii_lcell_comb")
-    (INSTANCE \\S2\|sum_2\|sum_1\|sum_2\|oS\\)
+    (INSTANCE \\S2\|sum_2\|sum_1\|sum_2\|oX\\)
     (DELAY
       (ABSOLUTE
         (PORT dataa (925:925:925) (925:925:925))
@@ -573,7 +573,7 @@
   )
   (CELL
     (CELLTYPE "cycloneii_lcell_comb")
-    (INSTANCE \\S2\|sum_2\|sum_2\|sum_1\|oS\\)
+    (INSTANCE \\S2\|sum_2\|sum_2\|sum_1\|oX\\)
     (DELAY
       (ABSOLUTE
         (PORT datab (310:310:310) (310:310:310))
@@ -585,7 +585,7 @@
   )
   (CELL
     (CELLTYPE "cycloneii_lcell_comb")
-    (INSTANCE \\S2\|sum_2\|sum_2\|sum_2\|oS\~0\\)
+    (INSTANCE \\S2\|sum_2\|sum_2\|sum_2\|oX\~0\\)
     (DELAY
       (ABSOLUTE
         (PORT dataa (5226:5226:5226) (5226:5226:5226))
@@ -601,7 +601,7 @@
   )
   (CELL
     (CELLTYPE "cycloneii_lcell_comb")
-    (INSTANCE \\S2\|sum_2\|sum_2\|sum_2\|oS\\)
+    (INSTANCE \\S2\|sum_2\|sum_2\|sum_2\|oX\\)
     (DELAY
       (ABSOLUTE
         (PORT datab (313:313:313) (313:313:313))
@@ -615,7 +615,7 @@
   )
   (CELL
     (CELLTYPE "cycloneii_asynch_io")
-    (INSTANCE \\ovS\[0\]\~I\\.asynch_inst)
+    (INSTANCE \\ovX\[0\]\~I\\.asynch_inst)
     (DELAY
       (ABSOLUTE
         (PORT datain (708:708:708) (708:708:708))
@@ -625,7 +625,7 @@
   )
   (CELL
     (CELLTYPE "cycloneii_asynch_io")
-    (INSTANCE \\ovS\[1\]\~I\\.asynch_inst)
+    (INSTANCE \\ovX\[1\]\~I\\.asynch_inst)
     (DELAY
       (ABSOLUTE
         (PORT datain (767:767:767) (767:767:767))
@@ -635,7 +635,7 @@
   )
   (CELL
     (CELLTYPE "cycloneii_asynch_io")
-    (INSTANCE \\ovS\[2\]\~I\\.asynch_inst)
+    (INSTANCE \\ovX\[2\]\~I\\.asynch_inst)
     (DELAY
       (ABSOLUTE
         (PORT datain (859:859:859) (859:859:859))
@@ -645,7 +645,7 @@
   )
   (CELL
     (CELLTYPE "cycloneii_asynch_io")
-    (INSTANCE \\ovS\[3\]\~I\\.asynch_inst)
+    (INSTANCE \\ovX\[3\]\~I\\.asynch_inst)
     (DELAY
       (ABSOLUTE
         (PORT datain (1236:1236:1236) (1236:1236:1236))
@@ -655,7 +655,7 @@
   )
   (CELL
     (CELLTYPE "cycloneii_asynch_io")
-    (INSTANCE \\ovS\[4\]\~I\\.asynch_inst)
+    (INSTANCE \\ovX\[4\]\~I\\.asynch_inst)
     (DELAY
       (ABSOLUTE
         (PORT datain (762:762:762) (762:762:762))
@@ -665,7 +665,7 @@
   )
   (CELL
     (CELLTYPE "cycloneii_asynch_io")
-    (INSTANCE \\ovS\[5\]\~I\\.asynch_inst)
+    (INSTANCE \\ovX\[5\]\~I\\.asynch_inst)
     (DELAY
       (ABSOLUTE
         (PORT datain (523:523:523) (523:523:523))
@@ -675,7 +675,7 @@
   )
   (CELL
     (CELLTYPE "cycloneii_asynch_io")
-    (INSTANCE \\ovS\[6\]\~I\\.asynch_inst)
+    (INSTANCE \\ovX\[6\]\~I\\.asynch_inst)
     (DELAY
       (ABSOLUTE
         (PORT datain (878:878:878) (878:878:878))
@@ -685,7 +685,7 @@
   )
   (CELL
     (CELLTYPE "cycloneii_asynch_io")
-    (INSTANCE \\ovS\[7\]\~I\\.asynch_inst)
+    (INSTANCE \\ovX\[7\]\~I\\.asynch_inst)
     (DELAY
       (ABSOLUTE
         (PORT datain (856:856:856) (856:856:856))

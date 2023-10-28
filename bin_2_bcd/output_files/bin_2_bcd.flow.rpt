@@ -1,6 +1,6 @@
 Flow report for bin_2_bcd
-Thu Oct 19 14:44:30 2023
-Quartus II 32-bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+Thu Oct 26 11:49:13 2023
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
 ---------------------
@@ -40,22 +40,22 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Flow Summary                                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Flow Status                        ; Successful - Thu Oct 19 14:44:30 2023           ;
-; Quartus II 32-bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
+; Flow Status                        ; Successful - Thu Oct 26 11:49:13 2023           ;
+; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; bin_2_bcd                                       ;
 ; Top-level Entity Name              ; bin_2_bcd                                       ;
 ; Family                             ; Cyclone II                                      ;
 ; Device                             ; EP2C20F484C7                                    ;
 ; Timing Models                      ; Final                                           ;
-; Total logic elements               ; 37 / 18,752 ( < 1 % )                           ;
-;     Total combinational functions  ; 37 / 18,752 ( < 1 % )                           ;
-;     Dedicated logic registers      ; 0 / 18,752 ( 0 % )                              ;
+; Total logic elements               ; 84                                              ;
+;     Total combinational functions  ; 84                                              ;
+;     Dedicated logic registers      ; 0                                               ;
 ; Total registers                    ; 0                                               ;
-; Total pins                         ; 21 / 315 ( 7 % )                                ;
+; Total pins                         ; 20                                              ;
 ; Total virtual pins                 ; 0                                               ;
-; Total memory bits                  ; 0 / 239,616 ( 0 % )                             ;
-; Embedded Multiplier 9-bit elements ; 0 / 52 ( 0 % )                                  ;
-; Total PLLs                         ; 0 / 4 ( 0 % )                                   ;
+; Total memory bits                  ; 0                                               ;
+; Embedded Multiplier 9-bit elements ; 0                                               ;
+; Total PLLs                         ; 0                                               ;
 +------------------------------------+-------------------------------------------------+
 
 
@@ -64,7 +64,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 10/19/2023 14:44:11 ;
+; Start date & time ; 10/26/2023 11:48:36 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; bin_2_bcd           ;
 +-------------------+---------------------+
@@ -75,11 +75,12 @@ applicable agreement for further details.
 +--------------------------------------+---------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                      ; Value                                 ; Default Value ; Entity Name ; Section Id     ;
 +--------------------------------------+---------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID                ; 198642171348843.169774465110036       ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID                ; 198642171348843.169833891610072       ; --            ; --          ; --             ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                    ; --            ; --          ; bin_2_bcd_tb   ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST      ; On                                    ; --            ; --          ; eda_simulation ;
 ; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; bin_2_bcd_tb                          ; --            ; --          ; eda_simulation ;
-; EDA_OUTPUT_DATA_FORMAT               ; Vhdl                                  ; --            ; --          ; eda_simulation ;
-; EDA_SIMULATION_TOOL                  ; ModelSim-Altera (VHDL)                ; <None>        ; --          ; --             ;
+; EDA_OUTPUT_DATA_FORMAT               ; Verilog Hdl                           ; --            ; --          ; eda_simulation ;
+; EDA_SIMULATION_TOOL                  ; ModelSim-Altera (Verilog)             ; <None>        ; --          ; --             ;
 ; EDA_TEST_BENCH_ENABLE_STATUS         ; TEST_BENCH_MODE                       ; --            ; --          ; eda_simulation ;
 ; EDA_TEST_BENCH_FILE                  ; bin_2_bcd_tb.vhd                      ; --            ; --          ; bin_2_bcd_tb   ;
 ; EDA_TEST_BENCH_MODULE_NAME           ; bin_2_bcd_tb                          ; --            ; --          ; bin_2_bcd_tb   ;
@@ -95,41 +96,35 @@ applicable agreement for further details.
 +--------------------------------------+---------------------------------------+---------------+-------------+----------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------+
-; Flow Elapsed Time                                                                                                             ;
-+---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
-+---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:02     ; 1.0                     ; 401 MB              ; 00:00:02                           ;
-; Fitter                    ; 00:00:07     ; 1.0                     ; 468 MB              ; 00:00:03                           ;
-; Assembler                 ; 00:00:03     ; 1.0                     ; 369 MB              ; 00:00:01                           ;
-; TimeQuest Timing Analyzer ; 00:00:02     ; 1.0                     ; 321 MB              ; 00:00:01                           ;
-; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 323 MB              ; 00:00:00                           ;
-; Total                     ; 00:00:15     ; --                      ; --                  ; 00:00:07                           ;
-+---------------------------+--------------+-------------------------+---------------------+------------------------------------+
++--------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                        ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis ; 00:00:03     ; 1.0                     ; 4625 MB             ; 00:00:02                           ;
+; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 4518 MB             ; 00:00:00                           ;
+; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 4518 MB             ; 00:00:00                           ;
+; Total                ; 00:00:03     ; --                      ; --                  ; 00:00:02                           ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
-+----------------------------------------------------------------------------------------+
-; Flow OS Summary                                                                        ;
-+---------------------------+------------------+-----------+------------+----------------+
-; Module Name               ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
-+---------------------------+------------------+-----------+------------+----------------+
-; Analysis & Synthesis      ; Acer-CamiloNore  ; Windows 7 ; 6.2        ; x86_64         ;
-; Fitter                    ; Acer-CamiloNore  ; Windows 7 ; 6.2        ; x86_64         ;
-; Assembler                 ; Acer-CamiloNore  ; Windows 7 ; 6.2        ; x86_64         ;
-; TimeQuest Timing Analyzer ; Acer-CamiloNore  ; Windows 7 ; 6.2        ; x86_64         ;
-; EDA Netlist Writer        ; Acer-CamiloNore  ; Windows 7 ; 6.2        ; x86_64         ;
-+---------------------------+------------------+-----------+------------+----------------+
++-----------------------------------------------------------------------------------+
+; Flow OS Summary                                                                   ;
++----------------------+------------------+-----------+------------+----------------+
+; Module Name          ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
++----------------------+------------------+-----------+------------+----------------+
+; Analysis & Synthesis ; Acer-CamiloNore  ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer   ; Acer-CamiloNore  ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer   ; Acer-CamiloNore  ; Windows 7 ; 6.2        ; x86_64         ;
++----------------------+------------------+-----------+------------+----------------+
 
 
 ------------
 ; Flow Log ;
 ------------
 quartus_map --read_settings_files=on --write_settings_files=off bin_2_bcd -c bin_2_bcd
-quartus_fit --read_settings_files=off --write_settings_files=off bin_2_bcd -c bin_2_bcd
-quartus_asm --read_settings_files=off --write_settings_files=off bin_2_bcd -c bin_2_bcd
-quartus_sta bin_2_bcd -c bin_2_bcd
-quartus_eda --read_settings_files=off --write_settings_files=off bin_2_bcd -c bin_2_bcd
+quartus_eda --gen_testbench --check_outputs=on --tool=modelsim_oem --format=verilog bin_2_bcd -c bin_2_bcd --vector_source="C:/Users/caminore/Documents/Quartus Files/vhdl-components/bin_2_bcd/Waveform.vwf" --testbench_file=./simulation/qsim/bin_2_bcd.vt
+quartus_eda --functional=on --simulation=on --tool=modelsim_oem --format=verilog bin_2_bcd -c bin_2_bcd
 
 
 

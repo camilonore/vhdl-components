@@ -1,5 +1,5 @@
 TimeQuest Timing Analyzer report for d_latch
-Tue Oct 17 10:46:32 2023
+Sun Oct 22 09:36:32 2023
 Quartus II 32-bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -126,8 +126,10 @@ No paths to report.
 +------------+-------------+-------+-------+-------+-------+
 ; Input Port ; Output Port ; RR    ; RF    ; FR    ; FF    ;
 +------------+-------------+-------+-------+-------+-------+
-; D          ; Q           ; 7.223 ;       ;       ; 7.223 ;
-; clk        ; Q           ; 7.721 ; 8.795 ; 8.795 ; 7.721 ;
+; Clk        ; Q           ; 8.714 ; 7.704 ; 7.704 ; 8.714 ;
+; Clk        ; nQ          ; 7.323 ; 8.333 ; 8.333 ; 7.323 ;
+; D          ; Q           ; 7.718 ;       ;       ; 7.718 ;
+; D          ; nQ          ;       ; 7.337 ; 7.337 ;       ;
 +------------+-------------+-------+-------+-------+-------+
 
 
@@ -136,8 +138,10 @@ No paths to report.
 +------------+-------------+-------+-------+-------+-------+
 ; Input Port ; Output Port ; RR    ; RF    ; FR    ; FF    ;
 +------------+-------------+-------+-------+-------+-------+
-; D          ; Q           ; 6.184 ;       ;       ; 6.184 ;
-; clk        ; Q           ; 7.721 ; 8.795 ; 8.795 ; 7.721 ;
+; Clk        ; Q           ; 8.714 ; 7.704 ; 7.704 ; 8.714 ;
+; Clk        ; nQ          ; 7.323 ; 8.333 ; 8.333 ; 7.323 ;
+; D          ; Q           ; 6.678 ;       ;       ; 6.678 ;
+; D          ; nQ          ;       ; 6.297 ; 6.297 ;       ;
 +------------+-------------+-------+-------+-------+-------+
 
 
@@ -176,8 +180,10 @@ No paths to report.
 +------------+-------------+-------+-------+-------+-------+
 ; Input Port ; Output Port ; RR    ; RF    ; FR    ; FF    ;
 +------------+-------------+-------+-------+-------+-------+
-; D          ; Q           ; 3.251 ;       ;       ; 3.251 ;
-; clk        ; Q           ; 3.530 ; 3.933 ; 3.933 ; 3.530 ;
+; Clk        ; Q           ; 3.887 ; 3.485 ; 3.485 ; 3.887 ;
+; Clk        ; nQ          ; 3.313 ; 3.715 ; 3.715 ; 3.313 ;
+; D          ; Q           ; 3.422 ;       ;       ; 3.422 ;
+; D          ; nQ          ;       ; 3.250 ; 3.250 ;       ;
 +------------+-------------+-------+-------+-------+-------+
 
 
@@ -186,8 +192,10 @@ No paths to report.
 +------------+-------------+-------+-------+-------+-------+
 ; Input Port ; Output Port ; RR    ; RF    ; FR    ; FF    ;
 +------------+-------------+-------+-------+-------+-------+
-; D          ; Q           ; 2.848 ;       ;       ; 2.848 ;
-; clk        ; Q           ; 3.530 ; 3.933 ; 3.933 ; 3.530 ;
+; Clk        ; Q           ; 3.887 ; 3.485 ; 3.485 ; 3.887 ;
+; Clk        ; nQ          ; 3.313 ; 3.715 ; 3.715 ; 3.313 ;
+; D          ; Q           ; 3.020 ;       ;       ; 3.020 ;
+; D          ; nQ          ;       ; 2.848 ; 2.848 ;       ;
 +------------+-------------+-------+-------+-------+-------+
 
 
@@ -206,8 +214,10 @@ No paths to report.
 +------------+-------------+-------+-------+-------+-------+
 ; Input Port ; Output Port ; RR    ; RF    ; FR    ; FF    ;
 +------------+-------------+-------+-------+-------+-------+
-; D          ; Q           ; 7.223 ;       ;       ; 7.223 ;
-; clk        ; Q           ; 7.721 ; 8.795 ; 8.795 ; 7.721 ;
+; Clk        ; Q           ; 8.714 ; 7.704 ; 7.704 ; 8.714 ;
+; Clk        ; nQ          ; 7.323 ; 8.333 ; 8.333 ; 7.323 ;
+; D          ; Q           ; 7.718 ;       ;       ; 7.718 ;
+; D          ; nQ          ;       ; 7.337 ; 7.337 ;       ;
 +------------+-------------+-------+-------+-------+-------+
 
 
@@ -216,8 +226,10 @@ No paths to report.
 +------------+-------------+-------+-------+-------+-------+
 ; Input Port ; Output Port ; RR    ; RF    ; FR    ; FF    ;
 +------------+-------------+-------+-------+-------+-------+
-; D          ; Q           ; 2.848 ;       ;       ; 2.848 ;
-; clk        ; Q           ; 3.530 ; 3.933 ; 3.933 ; 3.530 ;
+; Clk        ; Q           ; 3.887 ; 3.485 ; 3.485 ; 3.887 ;
+; Clk        ; nQ          ; 3.313 ; 3.715 ; 3.715 ; 3.313 ;
+; D          ; Q           ; 3.020 ;       ;       ; 3.020 ;
+; D          ; nQ          ;       ; 2.848 ; 2.848 ;       ;
 +------------+-------------+-------+-------+-------+-------+
 
 
@@ -247,9 +259,9 @@ No dedicated SERDES Receiver circuitry present in device or used in design
 ; Illegal Clocks                  ; 0     ; 0    ;
 ; Unconstrained Clocks            ; 0     ; 0    ;
 ; Unconstrained Input Ports       ; 2     ; 2    ;
-; Unconstrained Input Port Paths  ; 2     ; 2    ;
-; Unconstrained Output Ports      ; 1     ; 1    ;
-; Unconstrained Output Port Paths ; 2     ; 2    ;
+; Unconstrained Input Port Paths  ; 4     ; 4    ;
+; Unconstrained Output Ports      ; 2     ; 2    ;
+; Unconstrained Output Port Paths ; 4     ; 4    ;
 +---------------------------------+-------+------+
 
 
@@ -259,7 +271,7 @@ No dedicated SERDES Receiver circuitry present in device or used in design
 Info: *******************************************************************
 Info: Running Quartus II 32-bit TimeQuest Timing Analyzer
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Tue Oct 17 10:46:32 2023
+    Info: Processing started: Sun Oct 22 09:36:31 2023
 Info: Command: quartus_sta d_latch -c d_latch
 Info: qsta_default_script.tcl version: #1
 Warning (20028): Parallel compilation is not licensed and has been disabled
@@ -298,8 +310,8 @@ Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
 Info: Quartus II 32-bit TimeQuest Timing Analyzer was successful. 0 errors, 9 warnings
     Info: Peak virtual memory: 321 megabytes
-    Info: Processing ended: Tue Oct 17 10:46:32 2023
-    Info: Elapsed time: 00:00:00
+    Info: Processing ended: Sun Oct 22 09:36:32 2023
+    Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 
 

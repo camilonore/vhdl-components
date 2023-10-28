@@ -1,0 +1,16 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/caminore/Documents/Quartus Files/vhdl-components/flipflops/t_flipflop/t_flipflop.vhd
+source_file = 1, Waveform.vwf
+source_file = 1, t_flipflop_tb.vhd
+source_file = 1, C:/Users/caminore/Documents/Quartus Files/vhdl-components/flipflops/t_flipflop/db/t_flipflop.cbx.xml
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = t_flipflop
+instance = comp, \Clk~I , Clk, t_flipflop, 1
+instance = comp, \T~I , T, t_flipflop, 1
+instance = comp, \tmp~0 , tmp~0, t_flipflop, 1
+instance = comp, \R~I , R, t_flipflop, 1
+instance = comp, \Q~I , Q, t_flipflop, 1
+instance = comp, \nQ~I , nQ, t_flipflop, 1

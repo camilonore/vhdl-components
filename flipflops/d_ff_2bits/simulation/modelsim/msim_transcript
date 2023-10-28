@@ -1,0 +1,201 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do d_ff_2bits_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {C:/Users/caminore/Documents/Quartus Files/vhdl-components/flipflops/d_ff_2bits/d_ff_2bits.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity d_ff_2bits
+# -- Compiling architecture Behavioral of d_ff_2bits
+# vcom -93 -work work {c:/users/caminore/documents/quartus files/vhdl-components/flipflops/d_flipflop/d_flipflop.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity d_flipflop
+# -- Compiling architecture Behavioral of d_flipflop
+# 
+# vcom -93 -work work {C:/Users/caminore/Documents/Quartus Files/vhdl-components/flipflops/d_ff_2bits/d_ff_2bits_tb.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity d_ff_2bits_tb
+# -- Compiling architecture testbench of d_ff_2bits_tb
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs="+acc"  d_ff_2bits_tb
+# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs=\"+acc\" -t 1ps d_ff_2bits_tb 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.d_ff_2bits_tb(testbench)
+# Loading work.d_ff_2bits(behavioral)
+# ** Failure: (vsim-3817) Port "D" of entity "d_ff_2bits" is not in the component being instantiated.
+#    Time: 0 ps  Iteration: 0  Instance: /d_ff_2bits_tb/test File: C:/Users/caminore/Documents/Quartus Files/vhdl-components/flipflops/d_ff_2bits/d_ff_2bits.vhd Line: 6
+# ** Error: (vsim-3732) C:/Users/caminore/Documents/Quartus Files/vhdl-components/flipflops/d_ff_2bits/d_ff_2bits_tb.vhd(30): No default binding for component instance 'test'.
+# 
+#    The following component ports are not on the entity:
+#           iB
+#           iA
+# 
+#         Region: /d_ff_2bits_tb/test
+# Loading work.d_flipflop(behavioral)
+# ** Fatal: Bad library format, library not compiled with ALTERA compiler.
+#    Time: 0 ps  Iteration: 0  Instance: /d_ff_2bits_tb/test/ff0 File: C:/Users/caminore/Documents/Quartus Files/vhdl-components/flipflops/d_ff_2bits/d_ff_2bits.vhd Line: 29
+# FATAL ERROR while loading design
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./d_ff_2bits_run_msim_rtl_vhdl.do PAUSED at line 13
+do d_ff_2bits_run_msim_rtl_vhdl.do
+# transcript on
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# ** Warning: (vdel-31) Unable to unlink file "C:/Users/caminore/Documents/Quartus Files/vhdl-components/flipflops/d_ff_2bits/simulation/modelsim/rtl_work/d_flipflop/behavioral.psm".
+# 
+# El proceso no tiene acceso al archivo porque está siendo utilizado por otro proceso.
+# 
+# . (GetLastError() = 32)
+# ** Warning: (vdel-133) Unable to remove directory "C:/Users/caminore/Documents/Quartus Files/vhdl-components/flipflops/d_ff_2bits/simulation/modelsim/rtl_work/d_flipflop".
+# 
+# El directorio no está vacío.
+# 
+# . (GetLastError() = 145)
+# ** Warning: (vdel-133) Unable to remove directory "C:/Users/caminore/Documents/Quartus Files/vhdl-components/flipflops/d_ff_2bits/simulation/modelsim/rtl_work".
+# 
+# El directorio no está vacío.
+# 
+# . (GetLastError() = 145)
+# vlib rtl_work
+# ** Error: (vlib-35) Failed to create directory "rtl_work".
+# 
+# File exists. (errno = EEXIST)
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/caminore/Documents/Quartus Files/vhdl-components/flipflops/d_ff_2bits/d_ff_2bits.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity d_ff_2bits
+# -- Compiling architecture Behavioral of d_ff_2bits
+# vcom -93 -work work {c:/users/caminore/documents/quartus files/vhdl-components/flipflops/d_flipflop/d_flipflop.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity d_flipflop
+# -- Compiling architecture Behavioral of d_flipflop
+# 
+# vcom -93 -work work {C:/Users/caminore/Documents/Quartus Files/vhdl-components/flipflops/d_ff_2bits/d_ff_2bits_tb.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity d_ff_2bits_tb
+# -- Compiling architecture testbench of d_ff_2bits_tb
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs="+acc"  d_ff_2bits_tb
+# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs=\"+acc\" -t 1ps d_ff_2bits_tb 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.d_ff_2bits_tb(testbench)
+# Loading work.d_ff_2bits(behavioral)
+# Loading work.d_flipflop(behavioral)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+restart
+run
+run
+do d_ff_2bits_run_msim_rtl_vhdl.do
+# transcript on
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# ** Warning: (vdel-31) Unable to unlink file "C:/Users/caminore/Documents/Quartus Files/vhdl-components/flipflops/d_ff_2bits/simulation/modelsim/rtl_work/d_flipflop/behavioral.psm".
+# 
+# El proceso no tiene acceso al archivo porque está siendo utilizado por otro proceso.
+# 
+# . (GetLastError() = 32)
+# ** Warning: (vdel-133) Unable to remove directory "C:/Users/caminore/Documents/Quartus Files/vhdl-components/flipflops/d_ff_2bits/simulation/modelsim/rtl_work/d_flipflop".
+# 
+# El directorio no está vacío.
+# 
+# . (GetLastError() = 145)
+# ** Warning: (vdel-133) Unable to remove directory "C:/Users/caminore/Documents/Quartus Files/vhdl-components/flipflops/d_ff_2bits/simulation/modelsim/rtl_work".
+# 
+# El directorio no está vacío.
+# 
+# . (GetLastError() = 145)
+# vlib rtl_work
+# ** Error: (vlib-35) Failed to create directory "rtl_work".
+# 
+# File exists. (errno = EEXIST)
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/caminore/Documents/Quartus Files/vhdl-components/flipflops/d_ff_2bits/d_ff_2bits.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity d_ff_2bits
+# -- Compiling architecture Behavioral of d_ff_2bits
+# vcom -93 -work work {c:/users/caminore/documents/quartus files/vhdl-components/flipflops/d_flipflop/d_flipflop.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity d_flipflop
+# -- Compiling architecture Behavioral of d_flipflop
+# 
+# vcom -93 -work work {C:/Users/caminore/Documents/Quartus Files/vhdl-components/flipflops/d_ff_2bits/d_ff_2bits_tb.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity d_ff_2bits_tb
+# -- Compiling architecture testbench of d_ff_2bits_tb
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs="+acc"  d_ff_2bits_tb
+# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs=\"+acc\" -t 1ps d_ff_2bits_tb 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.d_ff_2bits_tb(testbench)
+# Loading work.d_ff_2bits(behavioral)
+# Loading work.d_flipflop(behavioral)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+restart
+run
+run
+run
+run
+run
+run
+run
+run

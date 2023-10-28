@@ -1,0 +1,110 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\caminore\Documents\Quartus Files\vhdl-components\flipflops\d_ff_2bits\simulation\modelsim
+Ed_ff_2bits
+Z1 w1698114507
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\Users\caminore\Documents\Quartus Files\vhdl-components\flipflops\d_ff_2bits\simulation\modelsim
+Z5 8C:/Users/caminore/Documents/Quartus Files/vhdl-components/flipflops/d_ff_2bits/d_ff_2bits.vhd
+Z6 FC:/Users/caminore/Documents/Quartus Files/vhdl-components/flipflops/d_ff_2bits/d_ff_2bits.vhd
+l0
+L4
+Vj63ha08S^31g5<>?4OcCM3
+Z7 OV;C;10.1d;51
+31
+Z8 !s108 1698114515.360000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/caminore/Documents/Quartus Files/vhdl-components/flipflops/d_ff_2bits/d_ff_2bits.vhd|
+Z10 !s107 C:/Users/caminore/Documents/Quartus Files/vhdl-components/flipflops/d_ff_2bits/d_ff_2bits.vhd|
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+!s100 <cSFg72A4G7P<Y`99BMM:3
+!i10b 1
+Abehavioral
+R2
+R3
+DEx4 work 10 d_ff_2bits 0 22 j63ha08S^31g5<>?4OcCM3
+l21
+L12
+V4JcQIXYbmij=lXNzh`B1H0
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 6nSPhfi=HDk<FZE]DGQl01
+!i10b 1
+Ed_ff_2bits_tb
+Z13 w1698114451
+R2
+R3
+R4
+Z14 8C:/Users/caminore/Documents/Quartus Files/vhdl-components/flipflops/d_ff_2bits/d_ff_2bits_tb.vhd
+Z15 FC:/Users/caminore/Documents/Quartus Files/vhdl-components/flipflops/d_ff_2bits/d_ff_2bits_tb.vhd
+l0
+L4
+VgB[dLXNc9g4685ZCL@D]40
+!s100 ?V6BZ[LEkSgUeEjg^QiSj2
+R7
+31
+!i10b 1
+Z16 !s108 1698114515.519000
+Z17 !s90 -reportprogress|300|-93|-work|work|C:/Users/caminore/Documents/Quartus Files/vhdl-components/flipflops/d_ff_2bits/d_ff_2bits_tb.vhd|
+Z18 !s107 C:/Users/caminore/Documents/Quartus Files/vhdl-components/flipflops/d_ff_2bits/d_ff_2bits_tb.vhd|
+R11
+R12
+Atestbench
+R2
+R3
+DEx4 work 13 d_ff_2bits_tb 0 22 gB[dLXNc9g4685ZCL@D]40
+l21
+L7
+Vo=OeVY[@185zzPc`;ejK52
+!s100 mjEH2fgJa?:9L<2UEg?F30
+R7
+31
+!i10b 1
+R16
+R17
+R18
+R11
+R12
+Ed_flipflop
+Z19 w1698081392
+R2
+R3
+R4
+Z20 8c:/users/caminore/documents/quartus files/vhdl-components/flipflops/d_flipflop/d_flipflop.vhd
+Z21 Fc:/users/caminore/documents/quartus files/vhdl-components/flipflops/d_flipflop/d_flipflop.vhd
+l0
+L4
+VYXf8cP=M]T`Ch3Lk6cigM2
+R7
+31
+Z22 !s108 1698114515.441000
+Z23 !s90 -reportprogress|300|-93|-work|work|c:/users/caminore/documents/quartus files/vhdl-components/flipflops/d_flipflop/d_flipflop.vhd|
+Z24 !s107 c:/users/caminore/documents/quartus files/vhdl-components/flipflops/d_flipflop/d_flipflop.vhd|
+R11
+R12
+!s100 l5]D9[zmm:o2PkeOShc8z2
+!i10b 1
+Abehavioral
+R2
+R3
+DEx4 work 10 d_flipflop 0 22 YXf8cP=M]T`Ch3Lk6cigM2
+l13
+L11
+VE3LG^DLi?GXl?68hnYPP_1
+R7
+31
+R22
+R23
+R24
+R11
+R12
+!s100 Dn9_lkJ3KPdQY1EW]KdOf0
+!i10b 1

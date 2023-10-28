@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\caminore\Documents\Quartus Files\vhdl-components\divisores_frecuencia\divisor_2_25\simulation\qsim
+vdivisor_2_25
+Z1 !s100 9<Tg^3o>F;C;SXVS5m?EI2
+Z2 IB6U=51K^ah96m:G>`Y3@X3
+Z3 VaA41Bd?G:ZhHZgn1Dk:@f2
+Z4 dC:\Users\caminore\Documents\Quartus Files\vhdl-components\divisores_frecuencia\divisor_2_25\simulation\qsim
+Z5 w1698337690
+Z6 8divisor_2_25.vo
+Z7 Fdivisor_2_25.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|divisor_2_25.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1698337691.499000
+Z12 !s107 divisor_2_25.vo|
+!s101 -O0
+vdivisor_2_25_vlg_check_tst
+!i10b 1
+Z13 !s100 C6FooDVmKDnDH?jHMQ5CN0
+Z14 Ik2:jG7kdM;aP3TWjW[6c21
+Z15 V4b2TPH7^S1koiU5X<4KfT3
+R4
+R5
+Z16 8divisor_2_25.vt
+Z17 Fdivisor_2_25.vt
+L0 57
+R8
+r1
+!s85 0
+31
+Z18 !s108 1698337691.561000
+Z19 !s107 divisor_2_25.vt|
+Z20 !s90 -work|work|divisor_2_25.vt|
+!s101 -O0
+R10
+vdivisor_2_25_vlg_sample_tst
+!i10b 1
+Z21 !s100 EV55YNaeE4MS2<];mdNm>1
+Z22 I7mzXLd45biWQWVzEUWMP>1
+Z23 VJnF0iFUbhVe`eE1ISRPKa2
+R4
+R5
+R16
+R17
+L0 29
+R8
+r1
+!s85 0
+31
+R18
+R19
+R20
+!s101 -O0
+R10
+vdivisor_2_25_vlg_vec_tst
+!i10b 1
+!s100 nc_3N`;6i3he?<gl<F8b72
+IiBkAbJ>o4GhXz^0?UbD2j3
+Z24 VN^n;]VI@_e0<T6lRn:8UA0
+R4
+R5
+R16
+R17
+Z25 L0 152
+R8
+r1
+!s85 0
+31
+R18
+R19
+R20
+!s101 -O0
+R10
