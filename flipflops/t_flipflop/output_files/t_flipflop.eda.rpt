@@ -1,5 +1,5 @@
 EDA Netlist Writer report for t_flipflop
-Fri Oct 27 11:05:16 2023
+Sun Oct 29 14:14:06 2023
 Quartus II 32-bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -36,7 +36,7 @@ applicable agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Fri Oct 27 11:05:16 2023 ;
+; EDA Netlist Writer Status ; Successful - Sun Oct 29 14:14:06 2023 ;
 ; Revision Name             ; t_flipflop                            ;
 ; Top-level Entity Name     ; t_flipflop                            ;
 ; Family                    ; Cyclone II                            ;
@@ -80,13 +80,13 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 32-bit EDA Netlist Writer
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Fri Oct 27 11:05:16 2023
+    Info: Processing started: Sun Oct 29 14:14:05 2023
 Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off t_flipflop -c t_flipflop
 Info (204019): Generated file t_flipflop.vo in folder "C:/Users/caminore/Documents/Quartus Files/vhdl-components/flipflops/t_flipflop/simulation/modelsim/" for EDA simulation tool
 Info: Quartus II 32-bit EDA Netlist Writer was successful. 0 errors, 0 warnings
     Info: Peak virtual memory: 331 megabytes
-    Info: Processing ended: Fri Oct 27 11:05:16 2023
-    Info: Elapsed time: 00:00:00
+    Info: Processing ended: Sun Oct 29 14:14:06 2023
+    Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:00
 
 

@@ -1,6 +1,8 @@
 |t_flipflop
 T => tmp.ENA
-R => tmp.ACLR
+R => tmp.IN0
+P => tmp.PRESET
+P => tmp.IN1
 Clk => tmp.CLK
 Q <= tmp.DB_MAX_OUTPUT_PORT_TYPE
 nQ <= tmp.DB_MAX_OUTPUT_PORT_TYPE

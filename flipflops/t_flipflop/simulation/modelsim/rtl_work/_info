@@ -4,7 +4,7 @@ K3
 cModel Technology
 Z0 dC:\Users\caminore\Documents\Quartus Files\vhdl-components\flipflops\t_flipflop\simulation\modelsim
 Et_flipflop
-Z1 w1698111479
+Z1 w1698606514
 Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
 Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
 Z4 dC:\Users\caminore\Documents\Quartus Files\vhdl-components\flipflops\t_flipflop\simulation\modelsim
@@ -12,23 +12,23 @@ Z5 8C:/Users/caminore/Documents/Quartus Files/vhdl-components/flipflops/t_flipfl
 Z6 FC:/Users/caminore/Documents/Quartus Files/vhdl-components/flipflops/t_flipflop/t_flipflop.vhd
 l0
 L4
-V>SA7bS9XYBaT^dU;`fHl02
+V5M^1=_YLKTnEe[Dj^O6U<3
 Z7 OV;C;10.1d;51
 31
-Z8 !s108 1698286925.005000
+Z8 !s108 1698606939.629000
 Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/caminore/Documents/Quartus Files/vhdl-components/flipflops/t_flipflop/t_flipflop.vhd|
 Z10 !s107 C:/Users/caminore/Documents/Quartus Files/vhdl-components/flipflops/t_flipflop/t_flipflop.vhd|
 Z11 o-93 -work work -O0
 Z12 tExplicit 1
-!s100 Y7:[CUMTdjBC8EBmNF0hV0
+!s100 Yo>D[I2m18QZ7Ln<bgE;f0
 !i10b 1
 Abehavioral
 R2
 R3
-Z13 DEx4 work 10 t_flipflop 0 22 >SA7bS9XYBaT^dU;`fHl02
-l15
+Z13 DEx4 work 10 t_flipflop 0 22 5M^1=_YLKTnEe[Dj^O6U<3
+l16
 L11
-VJJm:damMi?j984ZRRGaB;1
+V:Z^o534k[LM8UUgi5a:Be3
 R7
 31
 R8
@@ -36,10 +36,10 @@ R9
 R10
 R11
 R12
-!s100 23b;DRVcDhTY[=_5=`XbJ1
+!s100 mR^9FZkHSfYgAS:ic_?Of3
 !i10b 1
 Et_flipflop_tb
-Z14 w1698286898
+Z14 w1698606902
 R2
 R3
 R4
@@ -52,7 +52,7 @@ VbBjMWVIhN5n415iA?KjCa1
 R7
 31
 !i10b 1
-Z17 !s108 1698286925.133000
+Z17 !s108 1698606939.761000
 Z18 !s90 -reportprogress|300|-93|-work|work|C:/Users/caminore/Documents/Quartus Files/vhdl-components/flipflops/t_flipflop/t_flipflop_tb.vhd|
 Z19 !s107 C:/Users/caminore/Documents/Quartus Files/vhdl-components/flipflops/t_flipflop/t_flipflop_tb.vhd|
 R11
@@ -64,8 +64,8 @@ R3
 DEx4 work 13 t_flipflop_tb 0 22 bBjMWVIhN5n415iA?KjCa1
 l13
 L8
-VH:Vhljmka3k5jo8X1S8;F2
-!s100 iO6?7eA^e9hHLhafJ?mSL3
+V6_:D@J?50W2VeT:4AcZSc2
+!s100 9@2cbTiRQjdaP9LJidmKM0
 R7
 31
 !i10b 1

@@ -3,28 +3,29 @@ use ieee.std_logic_1164.all;
 
 entity t_flipflop is
 	port(
-		T, R, Clk : in  std_logic;
-		Q, nQ	 	 : out std_logic
+		T, R, P, Clk : in  std_logic;
+		       Q, nQ : out std_logic
 	);
 end t_flipflop;
 
 architecture Behavioral of t_flipflop is
 	
-	signal tmp : std_logic;
-
+	signal tmp : std_logic := '0';
+	
 begin
 
-	process(T, R, Clk)
+	process(T, R, P, Clk) 
+	
 	begin
-		if ( R = '1' ) then
+		if P = '1' then
+			tmp <= '1';
+		elsif R = '1' then
 			tmp <= '0';
-		elsif (Clk'event and Clk = '1') then
-			if ( T = '1' ) then
-				tmp <= not(tmp);
-			else
-				tmp <= tmp;
-			end if;
-		end if;
+		elsif falling_edge(Clk) and T = '1' then 			
+			tmp <= not(tmp);	
+		elsif falling_edge(Clk) and T = '0' then 				
+			tmp <= tmp;
+		end if;	
 	end process;
 	
 	Q  <= tmp;
