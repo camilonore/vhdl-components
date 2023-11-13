@@ -1,0 +1,964 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do contador_9_0_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity contador_9_0
+# -- Compiling architecture Behavioral of contador_9_0
+# vcom -93 -work work {c:/users/caminore/documents/quartus files/library/t_flipflop_inv.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity t_flipflop_inv
+# -- Compiling architecture Behavioral of t_flipflop_inv
+# 
+# vcom -93 -work work {C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0_tb.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity contador_9_0_tb
+# -- Compiling architecture Behavioral of contador_9_0_tb
+# ** Warning: [4] C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0_tb.vhd(21): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0_tb.vhd(30): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0_tb.vhd(31): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0_tb.vhd(32): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# -- Loading entity contador_9_0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs="+acc"  contador_9_0_tb
+# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs=\"+acc\" -t 1ps contador_9_0_tb 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.contador_9_0_tb(behavioral)
+# Loading work.contador_9_0(behavioral)
+# Loading work.t_flipflop_inv(behavioral)
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: caminore  Hostname: ACER-CAMILONORE  ProcessID: 7040
+# 
+#           Attempting to use alternate WLF file "./wlft0seg4q".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlft0seg4q
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+do contador_9_0_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity contador_9_0
+# -- Compiling architecture Behavioral of contador_9_0
+# vcom -93 -work work {c:/users/caminore/documents/quartus files/library/t_flipflop_inv.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity t_flipflop_inv
+# -- Compiling architecture Behavioral of t_flipflop_inv
+# 
+# vcom -93 -work work {C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0_tb.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity contador_9_0_tb
+# -- Compiling architecture Behavioral of contador_9_0_tb
+# ** Warning: [4] C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0_tb.vhd(21): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0_tb.vhd(30): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0_tb.vhd(31): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0_tb.vhd(32): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# -- Loading entity contador_9_0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs="+acc"  contador_9_0_tb
+# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs=\"+acc\" -t 1ps contador_9_0_tb 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.contador_9_0_tb(behavioral)
+# Loading work.contador_9_0(behavioral)
+# Loading work.t_flipflop_inv(behavioral)
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: caminore  Hostname: ACER-CAMILONORE  ProcessID: 7040
+# 
+#           Attempting to use alternate WLF file "./wlftck8s56".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftck8s56
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+do contador_9_0_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity contador_9_0
+# -- Compiling architecture Behavioral of contador_9_0
+# vcom -93 -work work {c:/users/caminore/documents/quartus files/library/t_flipflop_inv.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity t_flipflop_inv
+# -- Compiling architecture Behavioral of t_flipflop_inv
+# 
+# vcom -93 -work work {C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0_tb.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity contador_9_0_tb
+# -- Compiling architecture Behavioral of contador_9_0_tb
+# ** Warning: [4] C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0_tb.vhd(21): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0_tb.vhd(30): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0_tb.vhd(31): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0_tb.vhd(32): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# -- Loading entity contador_9_0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs="+acc"  contador_9_0_tb
+# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs=\"+acc\" -t 1ps contador_9_0_tb 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.contador_9_0_tb(behavioral)
+# Loading work.contador_9_0(behavioral)
+# Loading work.t_flipflop_inv(behavioral)
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: caminore  Hostname: ACER-CAMILONORE  ProcessID: 7040
+# 
+#           Attempting to use alternate WLF file "./wlftzxaaih".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftzxaaih
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+do contador_9_0_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity contador_9_0
+# -- Compiling architecture Behavioral of contador_9_0
+# vcom -93 -work work {c:/users/caminore/documents/quartus files/library/t_flipflop_inv.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity t_flipflop_inv
+# -- Compiling architecture Behavioral of t_flipflop_inv
+# 
+# vcom -93 -work work {C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0_tb.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity contador_9_0_tb
+# -- Compiling architecture Behavioral of contador_9_0_tb
+# ** Warning: [4] C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0_tb.vhd(21): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0_tb.vhd(30): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0_tb.vhd(31): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0_tb.vhd(32): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# -- Loading entity contador_9_0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs="+acc"  contador_9_0_tb
+# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs=\"+acc\" -t 1ps contador_9_0_tb 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.contador_9_0_tb(behavioral)
+# Loading work.contador_9_0(behavioral)
+# Loading work.t_flipflop_inv(behavioral)
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: caminore  Hostname: ACER-CAMILONORE  ProcessID: 7040
+# 
+#           Attempting to use alternate WLF file "./wlftevhid2".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftevhid2
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+do contador_9_0_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity contador_9_0
+# -- Compiling architecture Behavioral of contador_9_0
+# vcom -93 -work work {c:/users/caminore/documents/quartus files/library/t_flipflop_inv.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity t_flipflop_inv
+# -- Compiling architecture Behavioral of t_flipflop_inv
+# 
+# vcom -93 -work work {C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0_tb.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity contador_9_0_tb
+# -- Compiling architecture Behavioral of contador_9_0_tb
+# ** Warning: [4] C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0_tb.vhd(21): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0_tb.vhd(30): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0_tb.vhd(31): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0_tb.vhd(32): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# -- Loading entity contador_9_0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs="+acc"  contador_9_0_tb
+# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs=\"+acc\" -t 1ps contador_9_0_tb 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.contador_9_0_tb(behavioral)
+# Loading work.contador_9_0(behavioral)
+# Loading work.t_flipflop_inv(behavioral)
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: caminore  Hostname: ACER-CAMILONORE  ProcessID: 7040
+# 
+#           Attempting to use alternate WLF file "./wlftn71n47".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftn71n47
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+do contador_9_0_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity contador_9_0
+# -- Compiling architecture Behavioral of contador_9_0
+# vcom -93 -work work {c:/users/caminore/documents/quartus files/library/t_flipflop_inv.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity t_flipflop_inv
+# -- Compiling architecture Behavioral of t_flipflop_inv
+# 
+# vcom -93 -work work {C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0_tb.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity contador_9_0_tb
+# -- Compiling architecture Behavioral of contador_9_0_tb
+# ** Warning: [4] C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0_tb.vhd(21): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0_tb.vhd(30): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0_tb.vhd(31): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0_tb.vhd(32): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# -- Loading entity contador_9_0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs="+acc"  contador_9_0_tb
+# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs=\"+acc\" -t 1ps contador_9_0_tb 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.contador_9_0_tb(behavioral)
+# Loading work.contador_9_0(behavioral)
+# Loading work.t_flipflop_inv(behavioral)
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: caminore  Hostname: ACER-CAMILONORE  ProcessID: 7040
+# 
+#           Attempting to use alternate WLF file "./wlftmkccwe".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftmkccwe
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+do contador_9_0_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity contador_9_0
+# -- Compiling architecture Behavioral of contador_9_0
+# vcom -93 -work work {c:/users/caminore/documents/quartus files/library/t_flipflop_inv.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity t_flipflop_inv
+# -- Compiling architecture Behavioral of t_flipflop_inv
+# 
+# vcom -93 -work work {C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0_tb.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity contador_9_0_tb
+# -- Compiling architecture Behavioral of contador_9_0_tb
+# ** Warning: [4] C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0_tb.vhd(21): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0_tb.vhd(30): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0_tb.vhd(31): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0_tb.vhd(32): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# -- Loading entity contador_9_0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs="+acc"  contador_9_0_tb
+# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs=\"+acc\" -t 1ps contador_9_0_tb 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.contador_9_0_tb(behavioral)
+# Loading work.contador_9_0(behavioral)
+# Loading work.t_flipflop_inv(behavioral)
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: caminore  Hostname: ACER-CAMILONORE  ProcessID: 7040
+# 
+#           Attempting to use alternate WLF file "./wlft16jzev".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlft16jzev
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+do contador_9_0_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity contador_9_0
+# -- Compiling architecture Behavioral of contador_9_0
+# vcom -93 -work work {c:/users/caminore/documents/quartus files/library/t_flipflop_inv.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity t_flipflop_inv
+# -- Compiling architecture Behavioral of t_flipflop_inv
+# 
+# vcom -93 -work work {C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0_tb.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity contador_9_0_tb
+# -- Compiling architecture Behavioral of contador_9_0_tb
+# ** Warning: [4] C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0_tb.vhd(21): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0_tb.vhd(30): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0_tb.vhd(31): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0_tb.vhd(32): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# -- Loading entity contador_9_0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs="+acc"  contador_9_0_tb
+# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs=\"+acc\" -t 1ps contador_9_0_tb 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.contador_9_0_tb(behavioral)
+# Loading work.contador_9_0(behavioral)
+# Loading work.t_flipflop_inv(behavioral)
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: caminore  Hostname: ACER-CAMILONORE  ProcessID: 7040
+# 
+#           Attempting to use alternate WLF file "./wlfttygt2e".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlfttygt2e
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+do contador_9_0_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity contador_9_0
+# -- Compiling architecture Behavioral of contador_9_0
+# vcom -93 -work work {c:/users/caminore/documents/quartus files/library/t_flipflop_inv.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity t_flipflop_inv
+# -- Compiling architecture Behavioral of t_flipflop_inv
+# 
+# vcom -93 -work work {C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0_tb.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity contador_9_0_tb
+# -- Compiling architecture Behavioral of contador_9_0_tb
+# ** Warning: [4] C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0_tb.vhd(21): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0_tb.vhd(30): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0_tb.vhd(31): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0_tb.vhd(32): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# -- Loading entity contador_9_0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs="+acc"  contador_9_0_tb
+# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs=\"+acc\" -t 1ps contador_9_0_tb 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.contador_9_0_tb(behavioral)
+# Loading work.contador_9_0(behavioral)
+# Loading work.t_flipflop_inv(behavioral)
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: caminore  Hostname: ACER-CAMILONORE  ProcessID: 7040
+# 
+#           Attempting to use alternate WLF file "./wlfth861cr".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlfth861cr
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+do contador_9_0_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity contador_9_0
+# -- Compiling architecture Behavioral of contador_9_0
+# vcom -93 -work work {c:/users/caminore/documents/quartus files/library/t_flipflop_inv.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity t_flipflop_inv
+# -- Compiling architecture Behavioral of t_flipflop_inv
+# 
+# vcom -93 -work work {C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0_tb.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity contador_9_0_tb
+# -- Compiling architecture Behavioral of contador_9_0_tb
+# ** Warning: [4] C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0_tb.vhd(21): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0_tb.vhd(30): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0_tb.vhd(31): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0_tb.vhd(32): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# -- Loading entity contador_9_0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs="+acc"  contador_9_0_tb
+# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs=\"+acc\" -t 1ps contador_9_0_tb 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.contador_9_0_tb(behavioral)
+# Loading work.contador_9_0(behavioral)
+# Loading work.t_flipflop_inv(behavioral)
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: caminore  Hostname: ACER-CAMILONORE  ProcessID: 7040
+# 
+#           Attempting to use alternate WLF file "./wlftdyji70".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftdyji70
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+do contador_9_0_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity contador_9_0
+# -- Compiling architecture Behavioral of contador_9_0
+# vcom -93 -work work {c:/users/caminore/documents/quartus files/library/t_flipflop_inv.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity t_flipflop_inv
+# -- Compiling architecture Behavioral of t_flipflop_inv
+# 
+# vcom -93 -work work {C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0_tb.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity contador_9_0_tb
+# -- Compiling architecture Behavioral of contador_9_0_tb
+# ** Warning: [4] C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0_tb.vhd(21): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0_tb.vhd(30): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0_tb.vhd(31): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0_tb.vhd(32): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# -- Loading entity contador_9_0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs="+acc"  contador_9_0_tb
+# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs=\"+acc\" -t 1ps contador_9_0_tb 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.contador_9_0_tb(behavioral)
+# Loading work.contador_9_0(behavioral)
+# Loading work.t_flipflop_inv(behavioral)
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: caminore  Hostname: ACER-CAMILONORE  ProcessID: 7040
+# 
+#           Attempting to use alternate WLF file "./wlftqcmtbf".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftqcmtbf
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+do contador_9_0_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity contador_9_0
+# -- Compiling architecture Behavioral of contador_9_0
+# vcom -93 -work work {c:/users/caminore/documents/quartus files/library/t_flipflop_inv.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity t_flipflop_inv
+# -- Compiling architecture Behavioral of t_flipflop_inv
+# 
+# vcom -93 -work work {C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0_tb.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity contador_9_0_tb
+# -- Compiling architecture Behavioral of contador_9_0_tb
+# ** Warning: [4] C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0_tb.vhd(21): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0_tb.vhd(30): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0_tb.vhd(31): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0_tb.vhd(32): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# -- Loading entity contador_9_0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs="+acc"  contador_9_0_tb
+# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs=\"+acc\" -t 1ps contador_9_0_tb 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.contador_9_0_tb(behavioral)
+# Loading work.contador_9_0(behavioral)
+# Loading work.t_flipflop_inv(behavioral)
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: caminore  Hostname: ACER-CAMILONORE  ProcessID: 7040
+# 
+#           Attempting to use alternate WLF file "./wlftw0bmmq".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftw0bmmq
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+do contador_9_0_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity contador_9_0
+# -- Compiling architecture Behavioral of contador_9_0
+# vcom -93 -work work {c:/users/caminore/documents/quartus files/library/t_flipflop_inv.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity t_flipflop_inv
+# -- Compiling architecture Behavioral of t_flipflop_inv
+# 
+# vcom -93 -work work {C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0_tb.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity contador_9_0_tb
+# -- Compiling architecture Behavioral of contador_9_0_tb
+# ** Warning: [4] C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0_tb.vhd(21): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0_tb.vhd(30): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0_tb.vhd(31): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0_tb.vhd(32): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# -- Loading entity contador_9_0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs="+acc"  contador_9_0_tb
+# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs=\"+acc\" -t 1ps contador_9_0_tb 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.contador_9_0_tb(behavioral)
+# Loading work.contador_9_0(behavioral)
+# Loading work.t_flipflop_inv(behavioral)
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: caminore  Hostname: ACER-CAMILONORE  ProcessID: 7040
+# 
+#           Attempting to use alternate WLF file "./wlft6g1dsa".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlft6g1dsa
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+do contador_9_0_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity contador_9_0
+# -- Compiling architecture Behavioral of contador_9_0
+# vcom -93 -work work {c:/users/caminore/documents/quartus files/library/t_flipflop_inv.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity t_flipflop_inv
+# -- Compiling architecture Behavioral of t_flipflop_inv
+# 
+# vcom -93 -work work {C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0_tb.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity contador_9_0_tb
+# -- Compiling architecture Behavioral of contador_9_0_tb
+# ** Warning: [4] C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0_tb.vhd(21): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0_tb.vhd(30): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0_tb.vhd(31): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0_tb.vhd(32): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# -- Loading entity contador_9_0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs="+acc"  contador_9_0_tb
+# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs=\"+acc\" -t 1ps contador_9_0_tb 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.contador_9_0_tb(behavioral)
+# Loading work.contador_9_0(behavioral)
+# Loading work.t_flipflop_inv(behavioral)
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: caminore  Hostname: ACER-CAMILONORE  ProcessID: 7040
+# 
+#           Attempting to use alternate WLF file "./wlftzqky2e".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftzqky2e
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+do contador_9_0_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity contador_9_0
+# -- Compiling architecture Behavioral of contador_9_0
+# vcom -93 -work work {c:/users/caminore/documents/quartus files/library/t_flipflop_inv.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity t_flipflop_inv
+# -- Compiling architecture Behavioral of t_flipflop_inv
+# 
+# vcom -93 -work work {C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0_tb.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity contador_9_0_tb
+# -- Compiling architecture Behavioral of contador_9_0_tb
+# ** Warning: [4] C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0_tb.vhd(21): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0_tb.vhd(30): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0_tb.vhd(31): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0_tb.vhd(32): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# -- Loading entity contador_9_0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs="+acc"  contador_9_0_tb
+# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs=\"+acc\" -t 1ps contador_9_0_tb 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.contador_9_0_tb(behavioral)
+# Loading work.contador_9_0(behavioral)
+# Loading work.t_flipflop_inv(behavioral)
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: caminore  Hostname: ACER-CAMILONORE  ProcessID: 7040
+# 
+#           Attempting to use alternate WLF file "./wlft4bercg".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlft4bercg
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+do contador_9_0_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity contador_9_0
+# -- Compiling architecture Behavioral of contador_9_0
+# vcom -93 -work work {c:/users/caminore/documents/quartus files/library/t_flipflop_inv.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity t_flipflop_inv
+# -- Compiling architecture Behavioral of t_flipflop_inv
+# 
+# vcom -93 -work work {C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0_tb.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity contador_9_0_tb
+# -- Compiling architecture Behavioral of contador_9_0_tb
+# ** Warning: [4] C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0_tb.vhd(21): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0_tb.vhd(30): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0_tb.vhd(31): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_9_0/contador_9_0_tb.vhd(32): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# -- Loading entity contador_9_0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs="+acc"  contador_9_0_tb
+# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs=\"+acc\" -t 1ps contador_9_0_tb 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.contador_9_0_tb(behavioral)
+# Loading work.contador_9_0(behavioral)
+# Loading work.t_flipflop_inv(behavioral)
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: caminore  Hostname: ACER-CAMILONORE  ProcessID: 7040
+# 
+#           Attempting to use alternate WLF file "./wlftjfag55".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftjfag55
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all

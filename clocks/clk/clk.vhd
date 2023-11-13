@@ -8,10 +8,9 @@ use ieee.std_logic_unsigned.ALL;
 --library UNISIM;
 --use UNISIM.VComponents.all;
 
-entity clk is
-	Port ( 
-		    clk_i : in  std_logic;
-		clk_div_o : out std_logic		
+entity clk is port ( 
+		iClk : in  std_logic;
+		oClk : out std_logic		
 	);
 end clk;
 
@@ -23,11 +22,11 @@ signal aux: std_logic:='0';
 
 begin
 
-	process(clk_i)
+	process(iClk)
 
 	begin
 
-		if rising_edge(clk_i) then
+		if rising_edge(iClk) then
 
 			contador<=contador+1;
 
@@ -41,6 +40,6 @@ begin
 
 	end process;
 
-	clk_div_o <= aux;
+	oClk <= aux;
 
 end rtl;

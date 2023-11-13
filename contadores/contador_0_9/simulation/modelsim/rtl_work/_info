@@ -1,0 +1,111 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\caminore\Documents\Quartus Files\vhdl-components\contadores\contador_0_9\simulation\modelsim
+Econtador_0_9
+Z1 w1698714369
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\Users\caminore\Documents\Quartus Files\vhdl-components\contadores\contador_0_9\simulation\modelsim
+Z5 8C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_0_9/contador_0_9.vhd
+Z6 FC:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_0_9/contador_0_9.vhd
+l0
+L4
+VWXlV8nIWWE0dafcT>EDg=0
+Z7 OV;C;10.1d;51
+31
+Z8 !s108 1698715790.614000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_0_9/contador_0_9.vhd|
+Z10 !s107 C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_0_9/contador_0_9.vhd|
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+!s100 M98Foj6L@FhM?dmXBYUSM2
+!i10b 1
+Abehavioral
+R2
+R3
+Z13 DEx4 work 12 contador_0_9 0 22 WXlV8nIWWE0dafcT>EDg=0
+l28
+L15
+VkE^`[<JXZ7n1ZH`d92c_o3
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 aCRMISYDL7U_=[9;Ah`E=1
+!i10b 1
+Econtador_0_9_tb
+Z14 w1698715786
+R2
+R3
+R4
+Z15 8C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_0_9/contador_0_9_tb.vhd
+Z16 FC:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_0_9/contador_0_9_tb.vhd
+l0
+L4
+V@3Ib2jG;[:bn@A9aG04X=3
+!s100 GZOVY:4k8[kQXSAa7eF`60
+R7
+31
+!i10b 1
+Z17 !s108 1698715790.834000
+Z18 !s90 -reportprogress|300|-93|-work|work|C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_0_9/contador_0_9_tb.vhd|
+Z19 !s107 C:/Users/caminore/Documents/Quartus Files/vhdl-components/contadores/contador_0_9/contador_0_9_tb.vhd|
+R11
+R12
+Abehavioral
+R13
+R2
+R3
+DEx4 work 15 contador_0_9_tb 0 22 @3Ib2jG;[:bn@A9aG04X=3
+l19
+L8
+VCm_1AKRnbCQ1e`InaUD:53
+!s100 lRmnf7On6C@X;X<Q:GA6G1
+R7
+31
+!i10b 1
+R17
+R18
+R19
+R11
+R12
+Et_flipflop
+Z20 w1698687158
+R2
+R3
+R4
+Z21 8c:/users/caminore/documents/quartus files/library/t_flipflop.vhd
+Z22 Fc:/users/caminore/documents/quartus files/library/t_flipflop.vhd
+l0
+L4
+V5M^1=_YLKTnEe[Dj^O6U<3
+R7
+31
+Z23 !s108 1698715790.724000
+Z24 !s90 -reportprogress|300|-93|-work|work|c:/users/caminore/documents/quartus files/library/t_flipflop.vhd|
+Z25 !s107 c:/users/caminore/documents/quartus files/library/t_flipflop.vhd|
+R11
+R12
+!s100 Yo>D[I2m18QZ7Ln<bgE;f0
+!i10b 1
+Abehavioral
+R2
+R3
+DEx4 work 10 t_flipflop 0 22 5M^1=_YLKTnEe[Dj^O6U<3
+l15
+L11
+Vi96MdMRGz=K3kZE=48WHC0
+R7
+31
+R23
+R24
+R25
+R11
+R12
+!s100 jC[:kZ;SKK>bzgRD@2Il^3
+!i10b 1
