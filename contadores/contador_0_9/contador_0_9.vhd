@@ -5,6 +5,7 @@ entity contador_0_9 is
 	port(
 		Clk  : in  std_logic;
 		iR   : in  std_logic;
+		iT   : in  std_logic;
 		oClk : out std_logic;
 		iP   : in  std_logic_vector(3 downto 0);
 		ovX  : out std_logic_vector(3 downto 0);
@@ -28,7 +29,7 @@ architecture Behavioral of contador_0_9 is
 begin
 
 	ff0: t_flipflop port map(
-		T   => '1',
+		T   => iT,
 		R   => sR,
 		P 	 => iP(0),
 		Clk => Clk,
@@ -37,7 +38,7 @@ begin
 	);
 	
 	ff1: t_flipflop port map(
-		T   => '1',
+		T   => iT,
 		R   => sR,
 		P 	 => iP(1),
 		Clk => sQ(0),
@@ -46,7 +47,7 @@ begin
 	);
 	
 	ff2: t_flipflop port map(
-		T   => '1',
+		T   => iT,
 		P 	 => iP(2),
 		R   => sR,
 		Clk => sQ(1),
@@ -55,7 +56,7 @@ begin
 	);
 	
 	ff3: t_flipflop port map(
-		T   => '1',
+		T   => iT,
 		R   => sR,
 		P 	 => iP(3),
 		Clk => sQ(2),

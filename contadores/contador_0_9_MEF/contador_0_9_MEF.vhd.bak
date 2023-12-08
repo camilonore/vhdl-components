@@ -1,0 +1,113 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity contador_0_9_MEF is
+	port(
+		iClk : in  std_logic;
+		iX   : in  std_logic_vector(1 downto 0);
+		Seg0 : out std_logic_vector(6 downto 0);
+		Seg1 : out std_logic_vector(6 downto 0);
+		Seg2 : out std_logic_vector(6 downto 0);
+		Seg3 : out std_logic_vector(6 downto 0);
+		oY   : out std_logic_vector(2 downto 0)
+	);
+end contador_0_9_MEF;
+
+architecture Behavioral of contador_0_9_MEF is
+
+	signal sClk 			    : std_logic := '0';
+	signal TA, TB, TC, TD : std_logic := '0';
+	signal A, B, C, D 	  : std_logic := '0';
+	signal sRes				    : std_logic_vector(3 downto 0) := "0000";
+
+	component FFT is port ( 
+		T    : in std_logic;
+		iClk : in std_logic;
+		Q    : out std_logic := '0'
+	);
+	end component;
+	
+	component clk is port ( 
+		iClk : in  std_logic;
+		oClk : out std_logic		
+	);
+	end component;
+	
+	component bcd_2_7seg is
+		port(  
+			ivA: in  std_logic_vector (3 downto 0);
+			ovX: out std_logic_vector(6 downto 0)
+		); 
+	end component;
+
+begin
+
+	ClkDiv: clk port map(
+		iClk => iClk,
+		oClk => sClk
+	);
+
+--	sClk <= iClk;
+
+	TA <= (not C and not D and iX(0) and iX(1)) or (not C and D and not iX(0) and iX(1)) or (C and not D and iX(0) and not iX(1)) or (C and D and not iX(0) and not iX(1)) or (A);
+			
+	TB <= '0';
+			
+	TC <= (not C and not D and not iX(1)) or 
+				(C and not D and iX(1)) or 
+				(C and D and not iX(1)) or 
+				(A and iX(1)) or 
+				(not A and iX(0) and not iX(1)) or
+				(D and iX(0) and iX(1));
+			
+	TD <= (not C and not D and iX(1)) or 
+				(not A and not C and D and not iX(1)) or 
+				(C and not D and not iX(1)) or 
+				(C and D and iX(1)) or (A and iX(0)) or 
+				(not D and iX(0));
+	
+	-- oY(0) Par 
+	oY(0) <= (not D);
+				
+	-- oY(1) Impar
+	oY(1) <= (D);
+				
+	-- oY(2) Primo			
+	oY(2) <= (C);
+	
+	FFT0: FFT port map(
+		iClk => sClk,
+		T   => TA,
+		Q   => A
+	);
+	
+	FFT1: FFT port map(
+		iClk => sClk,
+		T   => TB,
+		Q   => B
+	);
+	
+	FFT2: FFT port map(
+		iClk => sClk,
+		T   => TC,
+		Q   => C
+	);
+	
+	FFT3: FFT port map(
+		iClk => sClk,
+		T   => TD,
+		Q   => D
+	);
+	
+	sRes <= A & B & C & D;
+	
+	SegA: bcd_2_7seg port map(
+		ivA => sRes,
+		ovX => Seg0
+	);
+	
+	Seg1 <= "1111111";
+	Seg2 <= "1111111";
+	Seg3 <= "1111111";
+
+end Behavioral;
