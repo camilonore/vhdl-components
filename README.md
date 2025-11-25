@@ -12,10 +12,9 @@ A **comprehensive collection of reusable VHDL modules** for digital system desig
 * [4. Installation & Integration](#4-installation--integration)
 * [5. Usage Guide](#5-usage-guide)
 * [6. Component Categories](#6-component-categories)
-* [7. Roadmap & To-Do](#7-roadmap--to-do)
-* [8. Contribution Guide](#8-contribution-guide)
-* [9. License](#9-license)
-* [10. Contact](#10-contact)
+* [7. Contribution Guide](#7-contribution-guide)
+* [8. License](#8-license)
+* [9. Contact](#9-contact)
 
 ---
 
@@ -147,13 +146,13 @@ Contributions are **welcome**\! If you have a useful VHDL component to add:
 
 -----
 
-## 9\. License
+## 8\. License
 
 This project is licensed under the **MIT License** - see the [LICENSE](https://www.google.com/search?q=LICENSE) file for details. This means you are free to use these components in personal and commercial projects.
 
 -----
 
-## 10\. Contact
+## 9\. Contact
 
   * **Maintainer:** Camilo Nore
   * **GitHub:** [@camilonore](https://www.google.com/search?q=https://github.com/camilonore)
