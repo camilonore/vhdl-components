@@ -81,7 +81,7 @@ To use these components, you need a standard VHDL development environment.
 Clone the entire library to your local machine to explore all components.
 
 ```bash
-git clone [https://github.com/camilonore/vhdl-components.git](https://github.com/camilonore/vhdl-components.git)
+git clone https://github.com/camilonore/vhdl-components.git
 cd vhdl-components
 ````
 
